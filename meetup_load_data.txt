@@ -1,0 +1,102 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Loading data into Property Graph using Groovy and Oracle NoSQL DB as data layer
+// Working environment: Big Data Lite VM 4.11
+//////////////////////////////////////////////////////////////////////////////////
+
+// Something done before
+sudo yum install tree
+
+// Check first whether Oracle NoSQL DB is up and running
+echo $KVHOME
+echo $KVROOT
+tree $KVROOT/kvstore
+
+java -jar $KVHOME/lib/kvstore.jar ping -port 5000 -host bigdatalite.localdomain
+java -jar $KVHOME/lib/kvcli.jar -host localhost -port 5000 -store kvstore
+> show topology
+> verify configuration
+> quit
+
+
+// Start Groovy Shell connecting to Oracle NoSQL DB
+cd /opt/oracle/oracle-spatial-graph/property_graph/dal/groovy
+./gremlin-opg-nosql.sh
+
+server = new ArrayList(); 
+server.add("bigdatalite.localdomain:5000"); 
+
+// Create a graph config that contains the graph name "meetup" 
+// KV store name is "kvstore"
+
+cfg = GraphConfigBuilder.forPropertyGraphNosql() \
+.setName("meetup") \
+.setStoreName("kvstore") \
+.setHosts(server) \
+.setUseVertexPropertyValueAsLabel("type") \
+.hasEdgeLabel(true) \
+.setLoadEdgeLabel(true) \
+.setMaxNumConnections(2).build();
+
+opg = OraclePropertyGraph.getInstance(cfg);
+opg.setClearTableDOP(2);
+opg.clearRepository();
+
+opg.getKVStoreConfig();
+
+opgdl=OraclePropertyGraphDataLoader.getInstance();
+vfile="/home/oracle/Documents/Meetup/data/meetup.opv";    // Flat file with Meetup vertices
+efile="/home/oracle/Documents/Meetup/data/meetup.ope";    // Flat file with Meetup edges
+
+opgdl.loadData(opg, vfile, efile, 2);
+
+// Count vertices and edges
+opg.countVertices();
+opg.countEdges();
+
+opg.getMaxVertexID();
+opg.getMaxEdgeID();
+
+OraclePropertyGraphUtils.exportGraphSON(opg, "/home/oracle/Documents/Meetup/data/meetup.graphson", System.out)
+OraclePropertyGraphUtils.exportGraphML(opg, "/home/oracle/Documents/Meetup/data/meetup.graphml", System.out)
+
+
+// Get vertices and edges
+opg.getVertices();
+opg.getEdges();
+opg.getVertex(500l);
+opg.getEdge(35242l);
+opg.getVertices("type","City");
+opg.getVertices("type","Category");
+opg.getVertices("type","Group");
+
+// Get table names
+opg.getVertexTabName();
+opg.getEdgeTabName();
+
+// PGX Server already started
+// Create in-memory session and analyst for analytics
+session=Pgx.createSession("session_ID_1");
+analyst=session.createAnalyst();
+
+// Read the graph from Oracle NoSQL DB into memory
+pgxGraph = session.readGraphWithProperties(opg.getConfig());
+
+pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x) -[e1:is_organizer_of]-> (y) -[e2:is_located_in]-> (z)")
+pgxResultSet.print(5);
+pgxResultSet.getNumResults();
+
+pgxResultSet = pgxGraph.queryPgql("SELECT t,e,g WHERE (t) -[e:is_assigned_to]-> (g WITH group.members>1000)
+pgxResultSet = pgxGraph.queryPgql("SELECT t,e,g WHERE (t) -[e:is_assigned_to]-> (g), g.group.members>1000
+pgxResultSet.print(10);
+pgxResultSet.getNumResults();
+
+// Execute Page Rank
+rank=analyst.pagerank(pgxGraph, 0.0001, 0.85, 100);
+
+// Get 10 vertices with highest PR values 
+rank.getTopKValues(10);
+
+
+					 
+// Shut down instance
+opg.shutdown();
