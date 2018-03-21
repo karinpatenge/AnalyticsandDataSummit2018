@@ -32,10 +32,17 @@ cfg = GraphConfigBuilder.forPropertyGraphNosql() \
 .setName("meetup") \
 .setStoreName("kvstore") \
 .setHosts(server) \
-.setUseVertexPropertyValueAsLabel("type") \
+.addVertexProperty("type", PropertyType.STRING, "NA") \
+.addVertexProperty("city_name", PropertyType.STRING, "NA") \
+.addVertexProperty("city_country", PropertyType.STRING, "NA") \
+.addVertexProperty("group_country", PropertyType.STRING, "NA") \
+.addVertexProperty("event_yes_rsvp_count", PropertyType.INTEGER, 0) \
+.addVertexProperty("city_member_count", PropertyType.INTEGER, 0) \
+.addVertexProperty("group_members", PropertyType.INTEGER, 0) \
 .hasEdgeLabel(true) \
 .setLoadEdgeLabel(true) \
 .setMaxNumConnections(2).build();
+// Remark: Make sure to add all properties that are later needed in PGQL queries
 
 opg = OraclePropertyGraph.getInstance(cfg);
 opg.setClearTableDOP(2);
@@ -81,15 +88,21 @@ analyst=session.createAnalyst();
 // Read the graph from Oracle NoSQL DB into memory
 pgxGraph = session.readGraphWithProperties(opg.getConfig());
 
+// Some PGQL queries
 pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x) -[e1:is_organizer_of]-> (y) -[e2:is_located_in]-> (z)")
 pgxResultSet.print(5);
 pgxResultSet.getNumResults();
 
-pgxResultSet = pgxGraph.queryPgql("SELECT t,e,g WHERE (t) -[e:is_assigned_to]-> (g WITH group.members>1000)
-pgxResultSet = pgxGraph.queryPgql("SELECT t,e,g WHERE (t) -[e:is_assigned_to]-> (g), g.group.members>1000
+pgxResultSet = pgxGraph.queryPgql("SELECT x.type, y.type, y.group_members WHERE (x) -[e1:is_organizer_of]-> (y WITH group_members > 1000) -[e2:is_located_in]-> (z)");
 pgxResultSet.print(10);
-pgxResultSet.getNumResults();
 
+pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x WITH event_yes_rsvp_count > 250) -[e1:is_organized_by]-> (y) -[e2:is_located_in]-> (z)")
+pgxResultSet.print(10);
+
+pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x WITH event_yes_rsvp_count > 250) -[e1:is_organized_by]-> (y) -[e2:is_located_in]-> (z WITH city_name = 'Berlin')")
+pgxResultSet.print(10);
+
+// Working with In-Memory Analyst
 // Execute Page Rank
 rank=analyst.pagerank(pgxGraph, 0.0001, 0.85, 100);
 
