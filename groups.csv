@@ -1,0 +1,582 @@
+"country","visibility","city","created","link","join_mode","members","name","id","urlname","who","category.id"
+"DE","public","Berlin",1228310277000,"https://www.meetup.com/The-Berlin-Semantic-Web-Meetup-Group/","open",725,"Lotico CSW - The Berlin Semantic Web Meetup",1331888,"The-Berlin-Semantic-Web-Meetup-Group","Lotico CSW Members",34
+"DE","public","Berlin",1306237735000,"https://www.meetup.com/Berlin-Hack-and-Tell/","open",3751,"Berlin Hack and Tell",1909241,"Berlin-Hack-and-Tell","Hackers",34
+"DE","public","Berlin",1306979100000,"https://www.meetup.com/graphdb-berlin/","open",1007,"Graph Database - Berlin",1954181,"graphdb-berlin","Graphistas",34
+"DE","public","Berlin",1311748627000,"https://www.meetup.com/Clojure-Berlin/","open",904,"Clojure Berlin",2243181,"Clojure-Berlin","Clojurians",34
+"DE","public","Berlin",1312720067000,"https://www.meetup.com/gdg-berlin/","open",3835,"Google Developer Group Berlin (GDG Berlin)",2303271,"gdg-berlin","Google Developers",34
+"DE","public","Berlin",1318677331000,"https://www.meetup.com/Scala-Berlin-Brandenburg/","open",1328,"Scala User Group - Berlin Brandenburg",2651872,"Scala-Berlin-Brandenburg","Scalaties",34
+"DE","public","Berlin",1319786907000,"https://www.meetup.com/BerlinHealth20/","open",1971,"Berlin Health 2.0",2720992,"BerlinHealth20","Healthcare Innovators",34
+"DE","public","Berlin",1326984191000,"https://www.meetup.com/b-tech/","open",8355,"Berlin Tech Meetup",3131812,"b-tech","Berlin Technologists",34
+"DE","public","Berlin",1328720534000,"https://www.meetup.com/TechMeetups-Berlin/","open",2109,"TechMeetups Berlin",3256862,"TechMeetups-Berlin","TechMeetup Members",34
+"DE","public","Berlin",1330100552000,"https://www.meetup.com/sfugberlin/","open",876,"Symfony User Group Berlin",3357042,"sfugberlin","Members",34
+"DE","public","Berlin",1330350857000,"https://www.meetup.com/Berlin-HTML5-User-Group/","open",1152,"HTML5 Berlin User Group",3373842,"Berlin-HTML5-User-Group","HTML5ers",34
+"DE","public","Berlin",1332519510000,"https://www.meetup.com/Berlin-iOS-User-Group/","open",497,"Berlin iOS User Group",3533252,"Berlin-iOS-User-Group","Members",34
+"DE","public","Berlin",1333641011000,"https://www.meetup.com/MUGBerlin/","open",695,"MongoDB User Group Berlin (@MUGBerlin)",3612682,"MUGBerlin","MUGlin",34
+"DE","public","Berlin",1335861761000,"https://www.meetup.com/berlinhug/","open",720,"Berlin Haskell Users Group",3775992,"berlinhug","Members",34
+"DE","public","Berlin",1335951022000,"https://www.meetup.com/javascript-developers-berlin-group/","open",890,"JS Developers Berlin",3783102,"javascript-developers-berlin-group","js-devs",34
+"DE","public","Berlin",1336932953000,"https://www.meetup.com/blndevops/","open",2346,"Berlin DevOps",3857492,"blndevops","Members",34
+"DE","public","Berlin",1338456139000,"https://www.meetup.com/thefunclub/","open",693,"The Functional Club",3975282,"thefunclub","Functional Fans",34
+"DE","public","Berlin",1339095338000,"https://www.meetup.com/Hacks-Hackers-Berlin/","open",2091,"Hacks/Hackers Berlin",4026852,"Hacks-Hackers-Berlin","Members",34
+"DE","public","Berlin",1342121346000,"https://www.meetup.com/opentechschool-berlin/","open",9173,"OpenTechSchool Berlin",4293362,"opentechschool-berlin","Learners",34
+"DE","public","Berlin",1343859052000,"https://www.meetup.com/Berlin-Startup-Culture-BSC/","open",1817,"Berlin Startup Culture (BSC)",4446562,"Berlin-Startup-Culture-BSC","Members",34
+"DE","public","Berlin",1345066391000,"https://www.meetup.com/Berlin-Salesforce-Platform-Developer-User-Group/","approval",411,"Berlin Salesforce Developer Group",4557902,"Berlin-Salesforce-Platform-Developer-User-Group","Developers",34
+"DE","public","Berlin",1350566876000,"https://www.meetup.com/Search-UG-Berlin/","open",767,"Search Usergroup Berlin",5449282,"Search-UG-Berlin","Members",34
+"DE","public","Berlin",1352071340000,"https://www.meetup.com/Python-Users-Berlin-PUB/","open",3701,"Python Users Berlin (PUB)",5700582,"Python-Users-Berlin-PUB","Pythonistas",34
+"DE","public","Berlin",1353938373000,"https://www.meetup.com/Bitcoin-Lab-Berlin/","open",1732,"Bitcoin Lab Berlin",5999622,"Bitcoin-Lab-Berlin","btc followers",34
+"DE","public","Berlin",1353954714000,"https://www.meetup.com/Usability-Stammtisch-Berlin/","open",1027,"Usability Stammtisch Berlin",6003702,"Usability-Stammtisch-Berlin","Mitglieder",34
+"DE","public","Berlin",1357988294000,"https://www.meetup.com/backend/","open",779,"Backend Web Berlin",6618272,"backend","Backend Developers",34
+"DE","public","Berlin",1358868590000,"https://www.meetup.com/Algorithms-Data-Challenges-Berlin/","open",2079,"Algorithms & Data Challenges Berlin",6785822,"Algorithms-Data-Challenges-Berlin","Data Enthusiasts",34
+"DE","public","Berlin",1359031898000,"https://www.meetup.com/ProductTank-Berlin/","open",1833,"ProductTank Berlin",6817752,"ProductTank-Berlin","Product People",34
+"DE","public","Berlin",1359708533000,"https://www.meetup.com/Ember-js-Berlin/","open",432,"Ember.js Berlin",6974432,"Ember-js-Berlin","Emberliners",34
+"DE","public","Berlin",1360622986000,"https://www.meetup.com/Berlin-Cassandra-Users/","open",473,"Berlin Cassandra Users  - by DataStax -",7139982,"Berlin-Cassandra-Users","Cassandra Rebels",34
+"DE","public","Berlin",1360959165000,"https://www.meetup.com/Meteor-Berlin/","open",956,"Meteor Berlin",7196352,"Meteor-Berlin","Meteorites",34
+"DE","public","Berlin",1362254191000,"https://www.meetup.com/Java-Berlin/","open",512,"Java Meetup Berlin",7427012,"Java-Berlin","Java Enthusiasts",34
+"DE","public","Berlin",1363129400000,"https://www.meetup.com/Developer-Group/","open",1322,"Developer Group Berlin",7591502,"Developer-Group","Developer",34
+"DE","public","Berlin",1364225576000,"https://www.meetup.com/eBay-Europe-Technology/","open",2977,"eBay Europe Technology #ebaytechtalk",7775182,"eBay-Europe-Technology","eBay Hackers",34
+"DE","public","Berlin",1364398261000,"https://www.meetup.com/up-front-ug/","open",2024,"Up.front",7806612,"up-front-ug","Members",34
+"DE","public","Berlin",1364856706000,"https://www.meetup.com/game-developers-berlin/","open",1525,"Game Developers Berlin",7876962,"game-developers-berlin","Game Developers",34
+"DE","public","Berlin",1365094502000,"https://www.meetup.com/SoundCloud-Tech-Meetups-Berlin/","open",1754,"SoundCloud Tech Meetups - Berlin",7917912,"SoundCloud-Tech-Meetups-Berlin","people",34
+"DE","public","Berlin",1365499837000,"https://www.meetup.com/Berlin-Peace-Innovation-Labs-Mobile-Facebook-Wiki-Maps/","open",1809,"Peace Innovation Lab - Berlin",7985862,"Berlin-Peace-Innovation-Labs-Mobile-Facebook-Wiki-Maps","Peace Innovators",34
+"DE","public","Berlin",1365945966000,"https://www.meetup.com/Coders-HQ/","open",441,"Coder HQ Berlin",8057302,"Coders-HQ","Coder",34
+"DE","public","Berlin",1366876512000,"https://www.meetup.com/IoTBerlin/","open",1567,"IoT Berlin",8213632,"IoTBerlin","Members",34
+"DE","public","Berlin",1369387965000,"https://www.meetup.com/PMBerlin/","open",746,"Project Management Meetup Berlin",8622522,"PMBerlin","Projectees",34
+"DE","public","Berlin",1369394827000,"https://www.meetup.com/PyLadies-Berlin/","open",857,"PyLadies Berlin",8623152,"PyLadies-Berlin","Berlin PyLadies",34
+"DE","public","Berlin",1369655756000,"https://www.meetup.com/BerlinGeekettes/","open",794,"Berlin Geekettes",8659162,"BerlinGeekettes","Geekettes",34
+"DE","public","Berlin",1369761398000,"https://www.meetup.com/Berlin-QA-Because-blame-doesnt-fix-bugs/","open",453,"Berlin QA // Because blame doesn't fix bugs",8679042,"Berlin-QA-Because-blame-doesnt-fix-bugs","Berliners",34
+"DE","public","Berlin",1369857361000,"https://www.meetup.com/django-user-group-berlin/","open",990,"Django User Group Berlin (djub)",8697102,"django-user-group-berlin","Members",34
+"DE","public","Berlin",1370444538000,"https://www.meetup.com/Berlin-Virtual-Reality-Meetup/","open",2673,"Virtual Reality Berlin",8795312,"Berlin-Virtual-Reality-Meetup","Members",34
+"DE","public","Berlin",1372163852000,"https://www.meetup.com/Data-Visualization-Berlin/","open",2350,"Data Visualization Berlin",9084832,"Data-Visualization-Berlin","visionaries",34
+"DE","public","Berlin",1372864747000,"https://www.meetup.com/Elixir-Berlin/","open",897,"Elixir Berlin",9199792,"Elixir-Berlin","Alchemists",34
+"DE","public","Berlin",1373206414000,"https://www.meetup.com/ProductCamp-Berlin/","open",926,"ProductCamp Berlin",9247752,"ProductCamp-Berlin","ProductCampers",34
+"DE","public","Berlin",1373355129000,"https://www.meetup.com/geek2geek/","open",901,"Geek2Geek - Berlin Tech Talk",9278262,"geek2geek","Geeks",34
+"DE","public","Berlin",1373380618000,"https://www.meetup.com/Agile-Game-Lab-Berlin/","open",1266,"Agile Game Lab",9281592,"Agile-Game-Lab-Berlin","Agalabers",34
+"DE","public","Berlin",1374054432000,"https://www.meetup.com/berlincplusplus/","open",1365,"Die Berlin C++ Meetup Gruppe",9394492,"berlincplusplus","Mitglieder",34
+"DE","public","Berlin",1374665089000,"https://www.meetup.com/aws-berlin/","open",2450,"Berlin AWS User Group",9496492,"aws-berlin","Members",34
+"DE","public","Berlin",1376735874000,"https://www.meetup.com/Unity-3D-Berlin/","open",571,"Unity 3D Berlin",9845752,"Unity-3D-Berlin","Unity Users",34
+"DE","public","Berlin",1377512019000,"https://www.meetup.com/Culture-Hacking-Berlin/","open",907,"Culture Hacking Berlin",9972472,"Culture-Hacking-Berlin","Culture Hackers",34
+"DE","public","Berlin",1379002536000,"https://www.meetup.com/AngularJS-Meetup-Berlin/","open",1667,"Angular Meetup Berlin",10232162,"AngularJS-Meetup-Berlin","Developers",34
+"DE","public","Berlin",1379397894000,"https://www.meetup.com/Puppet-User-Group-Berlin/","open",405,"Puppet User Group Berlin",10301442,"Puppet-User-Group-Berlin","Puppeteers from Berlin",34
+"DE","public","Berlin",1382462285000,"https://www.meetup.com/Blockchain-Meetup-Berlin/","open",3888,"Blockchain Meetup Berlin",10798002,"Blockchain-Meetup-Berlin","Members",34
+"DE","public","Berlin",1383225747000,"https://www.meetup.com/Raspberry-Pi-Berlin/","open",496,"Raspberry Pi Berlin",10915592,"Raspberry-Pi-Berlin","Embedded members",34
+"DE","public","Berlin",1383304003000,"https://www.meetup.com/privatekey/","open",1115,"Private Key",10925492,"privatekey","Cryptonauts",34
+"DE","public","Berlin",1384283774000,"https://www.meetup.com/Node-js-Meetup-Berlin/","open",2609,"Node.js Meetup Berlin",11077912,"Node-js-Meetup-Berlin","JavaScripters",34
+"DE","public","Berlin",1384379835000,"https://www.meetup.com/Docker-Berlin/","open",2476,"Docker Berlin",11094792,"Docker-Berlin","Dockers",34
+"DE","public","Berlin",1385205117000,"https://www.meetup.com/laravel-berlin/","open",419,"Laravel Group Berlin",11215692,"laravel-berlin","Artisans",34
+"DE","public","Berlin",1386702027000,"https://www.meetup.com/Berlin-WordPress-Meetup/","open",1205,"WordPress Meetup Berlin",11412102,"Berlin-WordPress-Meetup","WordPress Enthusiasts",34
+"DE","public","Berlin",1388922512000,"https://www.meetup.com/remote-work-digital-nomads/","open",610,"Remote work & Digital Nomads",11802142,"remote-work-digital-nomads","Members",34
+"DE","public","Berlin",1389015574000,"https://www.meetup.com/Software-Craftsmanship-Berlin/","open",3381,"Software Craftsmanship Berlin",11846642,"Software-Craftsmanship-Berlin","Craftspeople",34
+"DE","public","Berlin",1389067073000,"https://www.meetup.com/Hacking-Health-Berlin/","open",915,"Hacking Health Berlin",11878912,"Hacking-Health-Berlin","HealthHackers",34
+"DE","public","Berlin",1389187547000,"https://www.meetup.com/Ceph-Berlin/","open",462,"Ceph Berlin",11927052,"Ceph-Berlin","Cephalopods",34
+"DE","public","Berlin",1389699164000,"https://www.meetup.com/Geek-Girls-Carrots-Berlin/","open",1896,"Geek Girls Carrots Berlin",12106012,"Geek-Girls-Carrots-Berlin","IT Carrots",34
+"DE","public","Berlin",1390222602000,"https://www.meetup.com/Stacktrace-Berlin/","open",438,"talent.io Stacktrace",12297842,"Stacktrace-Berlin","Members",34
+"DE","public","Berlin",1390594252000,"https://www.meetup.com/berlin-machine-learning/","open",5634,"Berlin Machine Learning Group",12426342,"berlin-machine-learning","Machine Learners",34
+"DE","public","Berlin",1391768220000,"https://www.meetup.com/Berlin-Mobile-Quality-Crew/","open",900,"Berlin Mobile Quality Crew",12763152,"Berlin-Mobile-Quality-Crew","Crew Members",34
+"DE","public","Berlin",1392307126000,"https://www.meetup.com/CodingAmigos/","open",1520,"Coding and Wizard Amigos",12863292,"CodingAmigos","Hacktivists",34
+"DE","public","Berlin",1392655689000,"https://www.meetup.com/Berlin-UX-Happy-Hour/","open",2371,"Berlin UX Happy Hour",12926342,"Berlin-UX-Happy-Hour","Designers",34
+"DE","public","Berlin",1393611306000,"https://www.meetup.com/PyData-Berlin/","open",3294,"PyData Berlin",13108712,"PyData-Berlin","members",34
+"DE","public","Berlin",1393628933000,"https://www.meetup.com/Berlin-Mozilla-Meetup/","open",996,"Berlin Mozilla Meetup",13112352,"Berlin-Mozilla-Meetup","Mozillians",34
+"DE","public","Berlin",1395597273000,"https://www.meetup.com/Berlin-Selenium-Meetup/","open",569,"Berlin Selenium Meetup",13503712,"Berlin-Selenium-Meetup","Members",34
+"DE","public","Berlin",1395943655000,"https://www.meetup.com/appliedJavascript/","open",565,"Applied Javascript",13584112,"appliedJavascript","members",34
+"DE","public","Berlin",1396347694000,"https://www.meetup.com/Silicon-Drinkabout-Berlin/","open",1495,"Silicon Drinkabout Berlin",13666062,"Silicon-Drinkabout-Berlin","Drinkers",34
+"DE","public","Berlin",1397472428000,"https://www.meetup.com/eposttechtalk/","open",800,"E-POST Tech Talk",13901712,"eposttechtalk","Members",34
+"DE","public","Berlin",1397659280000,"https://www.meetup.com/Making-Apps-That-Make-Music/","open",479,"Making Apps That Make Music",13944612,"Making-Apps-That-Make-Music","Members",34
+"DE","public","Berlin",1397727469000,"https://www.meetup.com/Python-Big-Data-Analytics/","open",463,"Algorithmic Trading & Data-Driven Finance",13958902,"Python-Big-Data-Analytics","Python Data Scientists",34
+"DE","public","Berlin",1399020356000,"https://www.meetup.com/FabLabBerlin/","open",3839,"Fab Lab Berlin",14226222,"FabLabBerlin","Makers",34
+"DE","public","Berlin",1399666799000,"https://www.meetup.com/berlinuxd/","open",2688,"Berlin User Experience Designers",14360822,"berlinuxd","UX Designers",34
+"DE","public","Berlin",1400109744000,"https://www.meetup.com/Big-Data-Developers-in-Berlin/","open",2944,"Big Data Developers in Berlin",14460772,"Big-Data-Developers-in-Berlin","Big Data Enthusiasts",34
+"DE","public","Berlin",1400227200000,"https://www.meetup.com/Strange-Group-Berlin/","open",919,"Strange Group: Emerging and Alternative Technologies",14485812,"Strange-Group-Berlin","Strange Groupers",34
+"DE","public","Berlin",1400446128000,"https://www.meetup.com/Cocoaheads-Berlin/","open",1009,"Cocoaheads Berlin",14529062,"Cocoaheads-Berlin","CocoaHeads",34
+"DE","public","Berlin",1400575739000,"https://www.meetup.com/CTO-Roundtable-Berlin/","approval",580,"CTO Roundtable Berlin",14563792,"CTO-Roundtable-Berlin","Members",34
+"DE","public","Berlin",1400776904000,"https://www.meetup.com/Papers-We-Love-Berlin/","open",470,"Papers We Love - Berlin",14613232,"Papers-We-Love-Berlin","Members",34
+"DE","public","Berlin",1400781712000,"https://www.meetup.com/Berliner-SEO-Stammtisch/","open",408,"Berliner SEO Stammtisch",14614452,"Berliner-SEO-Stammtisch","HauptstadtSEOs",34
+"DE","public","Berlin",1402010944000,"https://www.meetup.com/swift-berlin/","open",1179,"swift.berlin",14908042,"swift-berlin","Developer",34
+"DE","public","Berlin",1403087797000,"https://www.meetup.com/UXDesignersHQBerlin/","open",785,"UX Creatives HQ Berlin",15161382,"UXDesignersHQBerlin","UX Creatives",34
+"DE","public","Berlin",1403275575000,"https://www.meetup.com/Make-Open-Source/","open",889,"Open Source: Digitale Produkte, Webdevelopment + Design",15204232,"Make-Open-Source","Digital Creator",34
+"DE","public","Berlin",1404745768000,"https://www.meetup.com/Big-Data-Berlin/","open",5251,"Big Data, Berlin",15549592,"Big-Data-Berlin","Data Lovers, Berlin",34
+"DE","public","Berlin",1404849891000,"https://www.meetup.com/Berlin-Jobs-To-Be-Done-Meetup/","open",2106,"Berlin #JTBD Jobs-to-be-Done Meetup",15583402,"Berlin-Jobs-To-Be-Done-Meetup","JTBD practitioners",34
+"DE","public","Berlin",1406229793000,"https://www.meetup.com/Kaggle-Berlin/","open",834,"Kaggle Berlin",15949212,"Kaggle-Berlin","Kagglers",34
+"DE","public","Berlin",1406893619000,"https://www.meetup.com/Eurostaff-Connect-Berlin-Developer-Group/","open",855,"Eurostaff Connect(s) - Berlin Developer Group",16119132,"Eurostaff-Connect-Berlin-Developer-Group","IT enthusiasts",34
+"DE","public","Berlin",1407418680000,"https://www.meetup.com/Berlin-Apache-Spark-Meetup/","open",761,"Berlin Apache Spark Meetup",16243222,"Berlin-Apache-Spark-Meetup","Data Geeks",34
+"DE","public","Berlin",1408024476000,"https://www.meetup.com/Berlin-Ethereum-Meetup/","open",2437,"Berlin Ethereum Meetup",16384212,"Berlin-Ethereum-Meetup","Ethereum enthusiasts",34
+"DE","public","Berlin",1409325114000,"https://www.meetup.com/m3-Makers-Manufacturers-Meetup/","open",943,"Makers & Manufacturers Meetup (Berlin)",16673122,"m3-Makers-Manufacturers-Meetup","Makers & Manufacturers",34
+"DE","public","Berlin",1409953475000,"https://www.meetup.com/learn2makeawebsite/","open",753,"Learn 2 make a website - WordPress - Berlin",16819322,"learn2makeawebsite","Learners",34
+"DE","public","Berlin",1410525951000,"https://www.meetup.com/FashionTec-Meetup-Berlin/","open",1236,"FashionTec Berlin",16952962,"FashionTec-Meetup-Berlin","Fashiontechies",34
+"DE","public","Berlin",1411035800000,"https://www.meetup.com/Apache-Flink-Meetup/","open",1111,"Apache Flink Meetup Berlin",17066872,"Apache-Flink-Meetup","Squirrels",34
+"DE","public","Berlin",1411250945000,"https://www.meetup.com/UX-Salon-Berlin/","open",643,"UX Salon - Berlin",17112732,"UX-Salon-Berlin","UXers",34
+"DE","public","Berlin",1412017809000,"https://www.meetup.com/Tech-Book-Club-Berlin/","open",1045,"Tech Book Club Berlin",17293262,"Tech-Book-Club-Berlin","Technology critics",34
+"DE","public","Berlin",1413492667000,"https://www.meetup.com/Rust-Berlin/","open",867,"Rust Berlin",17670252,"Rust-Berlin","Rusties",34
+"DE","public","Berlin",1413715921000,"https://www.meetup.com/Software-Architecture-and-Design-Berlin/","open",618,"Software Architecture and Design Berlin",17718042,"Software-Architecture-and-Design-Berlin","Members",34
+"DE","public","Berlin",1414981928000,"https://www.meetup.com/GDG-Berlin-Android/","open",1451,"GDG Berlin Android",18029372,"GDG-Berlin-Android","Androids",34
+"DE","public","Berlin",1415092652000,"https://www.meetup.com/Microservices-Meetup-Berlin/","open",2343,"Microservices Meetup Berlin",18059152,"Microservices-Meetup-Berlin","Members",34
+"DE","public","Berlin",1415280444000,"https://www.meetup.com/Berlin-Lean-Coffee/","open",568,"Berlin Lean Coffee",18111752,"Berlin-Lean-Coffee","BerLEANers",34
+"DE","public","Berlin",1416571225000,"https://www.meetup.com/OpenXLab/","open",742,"OpenXLab",18204901,"OpenXLab","OpenXers",34
+"DE","public","Berlin",1417517181000,"https://www.meetup.com/OK-Lab-Berlin/","open",1029,"OK Lab Berlin",18227086,"OK-Lab-Berlin","Member",34
+"DE","public","Berlin",1418817100000,"https://www.meetup.com/Geo-Berlin/","open",464,"Geo Berlin",18258647,"Geo-Berlin","Geographers",34
+"DE","public","Berlin",1419281205000,"https://www.meetup.com/Berlin-Innovation-Meetup-for-Personal-Technology/","open",4392,"Berlin Meetup for Innovative Technology and Business",18268877,"Berlin-Innovation-Meetup-for-Personal-Technology","Innovators and Business Makers",34
+"DE","public","Berlin",1419607856000,"https://www.meetup.com/Ansible-Berlin/","open",473,"Ansible Berlin",18274585,"Ansible-Berlin","Ansiblings",34
+"DE","public","Berlin",1420413338000,"https://www.meetup.com/Berlin-R-Users-Group/","open",1488,"Berlin R Users Group",18299780,"Berlin-R-Users-Group","R users",34
+"DE","public","Berlin",1420556350000,"https://www.meetup.com/Berlin-Scrum-Meetup/","open",801,"Berlin Scrum Meetup",18306135,"Berlin-Scrum-Meetup","Members",34
+"DE","public","Berlin",1420575563000,"https://www.meetup.com/Berlin-Mobile-Marketing-Growth-Meetup/","open",975,"Berlin Mobile Marketing & Growth Meetup",18307265,"Berlin-Mobile-Marketing-Growth-Meetup","Mobile Experts",34
+"DE","public","Berlin",1420819010000,"https://www.meetup.com/Product-Crunch/","open",2555,"Product Crunch 🍪",18316426,"Product-Crunch","Product Lovers & Cookie Monsters",34
+"DE","public","Berlin",1421325716000,"https://www.meetup.com/CoreOS-Berlin/","open",841,"CoreOS Berlin",18339063,"CoreOS-Berlin","Members",34
+"DE","public_limited","Berlin",1422083224000,"https://www.meetup.com/Advanced-Machine-Learning-Study-Group/","approval",764,"Advanced Machine Learning Study Group",18373067,"Advanced-Machine-Learning-Study-Group","Machine Learners",34
+"DE","public","Berlin",1422362193000,"https://www.meetup.com/Urban-Interactions/","open",1281,"Berlin Urban Interaction Design",18384606,"Urban-Interactions","Urbanists",34
+"DE","public","Berlin",1422957097000,"https://www.meetup.com/jug-bb/","open",1571,"Java Usergroup Berlin-Brandenburg",18407590,"jug-bb","Javaianer",34
+"DE","public","Berlin",1423051012000,"https://www.meetup.com/GoEuro-Meetups/","open",535,"GoEuro Tech & Product Meetups",18410344,"GoEuro-Meetups","GoEuro'ers",34
+"DE","public","Berlin",1424123192000,"https://www.meetup.com/d-collective/","open",529,"D.Collective",18439542,"d-collective","d.thinkers & d.doers",34
+"DE","public","Berlin",1424265667000,"https://www.meetup.com/Berlin-Science-Hacking/","open",971,"Berlin Science Hacking",18443455,"Berlin-Science-Hacking","Science Hackers",34
+"DE","public","Berlin",1424975133000,"https://www.meetup.com/AwesomeShield/","open",717,"Awesome Shield Berlin - Learn to Code with Arduino",18463239,"AwesomeShield","Awesome Learners",34
+"DE","public","Berlin",1425052314000,"https://www.meetup.com/React-Berlin/","open",2278,"React Berlin",18465267,"React-Berlin","Reactors",34
+"DE","public","Berlin",1425136381000,"https://www.meetup.com/Berlin-Digital-Analytics/","open",2445,"Berlin Digital Analytics Meetup",18467218,"Berlin-Digital-Analytics","Digital Analysts",34
+"DE","public","Berlin",1425658264000,"https://www.meetup.com/PoDojo-Studio-Berlin/","open",1637,"#PoDojo Studio Berlin",18481943,"PoDojo-Studio-Berlin","Product People",34
+"DE","public","Berlin",1426167528000,"https://www.meetup.com/PostgreSQL-Meetup-Berlin/","open",780,"PostgreSQL Meetup Group Berlin",18496246,"PostgreSQL-Meetup-Berlin","Elephantista",34
+"DE","public","Berlin",1426759108000,"https://www.meetup.com/ThoughtWorks-Berlin/","open",3323,"ThoughtWorks Berlin",18510988,"ThoughtWorks-Berlin","friends",34
+"DE","public","Berlin",1427108649000,"https://www.meetup.com/Product-Owner-Innovation-Toolkit/","open",424,"Product Owner Innovation Toolkit",18516221,"Product-Owner-Innovation-Toolkit","Innovative Product Owners",34
+"DE","public","Berlin",1427211557000,"https://www.meetup.com/Berlin-Web-Audio-Meetup/","open",630,"Berlin Web Audio Meetup",18518242,"Berlin-Web-Audio-Meetup","music makers",34
+"DE","public","Berlin",1429025090000,"https://www.meetup.com/G-Force-Put-your-idea-under-pressure-before-others-do-it/","open",2834,"G-Force: Put your idea under pressure before others do it!",18547227,"G-Force-Put-your-idea-under-pressure-before-others-do-it","Members",34
+"DE","public","Berlin",1429203806000,"https://www.meetup.com/Analytics-Innovation-Meetup/","open",1197,"Analytics Innovation Meetup",18550577,"Analytics-Innovation-Meetup","Members",34
+"DE","public","Berlin",1429907187000,"https://www.meetup.com/DevBPC/","open",771,"Developer Best Practice Club - Axel Springer Family",18562153,"DevBPC","Developers",34
+"DE","public","Berlin",1430317909000,"https://www.meetup.com/IXDS-Pre-Work-Talks-Berlin/","open",1642,"IXDS Pre-Work Talks Berlin",18569055,"IXDS-Pre-Work-Talks-Berlin","Members",34
+"DE","public","Berlin",1430747678000,"https://www.meetup.com/Zalando-Tech-Events-Berlin/","open",6712,"Zalando Tech Events Berlin",18575647,"Zalando-Tech-Events-Berlin","Zalandos",34
+"DE","public","Berlin",1430766691000,"https://www.meetup.com/Women-Who-Code-Berlin-Germany/","open",2812,"Women Who Code Berlin",18576134,"Women-Who-Code-Berlin-Germany","Members",34
+"DE","public","Berlin",1432796485000,"https://www.meetup.com/blogtisch/","open",425,"blogfoster Academy Day",18631232,"blogtisch","Blogger und Influencer",34
+"DE","public","Berlin",1433192024000,"https://www.meetup.com/Innovative-employee-and-Freelancer-Job-Fair-Berlin/","open",502,"Innovative Employee and Freelancer Job Fair Berlin",18641856,"Innovative-employee-and-Freelancer-Job-Fair-Berlin","Member",34
+"DE","public","Berlin",1433253178000,"https://www.meetup.com/b2b-berlin/","open",3956,"B2B Berlin",18643530,"b2b-berlin","B2B Berliners",34
+"DE","public","Berlin",1435315587000,"https://www.meetup.com/spektrum/","open",2184,"SPEKTRUM | art science community",18700210,"spektrum","community members",34
+"DE","public","Berlin",1435567988000,"https://www.meetup.com/Berlin-Open-Science-Meetup/","open",659,"Berlin Open Science -Reproducible Research- Meetup",18706195,"Berlin-Open-Science-Meetup","Open scientists",34
+"DE","public","Berlin",1435615469000,"https://www.meetup.com/Mobile-Growth-Berlin/","open",788,"Mobile Growth Berlin",18707845,"Mobile-Growth-Berlin","Mobile Growth Experts",34
+"DE","public","Berlin",1436458597000,"https://www.meetup.com/Snowplow-Analytics-Berlin/","open",619,"Snowplow Analytics Berlin",18730078,"Snowplow-Analytics-Berlin","Snowplowers",34
+"DE","public","Berlin",1438012661000,"https://www.meetup.com/BerlinNLP/","open",1115,"Berlin NLP",18775984,"BerlinNLP","Members",34
+"DE","public","Berlin",1438583354000,"https://www.meetup.com/German-Accelerator-Internationalization-of-High-Tech-Firms/","open",765,"German Accelerator - Meetups Germany",18796522,"German-Accelerator-Internationalization-of-High-Tech-Firms","Mitglieder",34
+"DE","public","Berlin",1438631732000,"https://www.meetup.com/witas-Women-in-Tech-and-Startups-Berlin/","open",2240,"#witas - Women in Tech and Startups Berlin",18798561,"witas-Women-in-Tech-and-Startups-Berlin","Mitglieder",34
+"DE","public","Berlin",1440329830000,"https://www.meetup.com/Berlin-Futurists/","open",762,"Berlin Futurists",18859794,"Berlin-Futurists","Futuristen",34
+"DE","public","Berlin",1440952657000,"https://www.meetup.com/Berlin-Kubernetes-Meetup/","open",1313,"Berlin Kubernetes Meetup",18882572,"Berlin-Kubernetes-Meetup","Kubernauts",34
+"DE","public","Berlin",1441485222000,"https://www.meetup.com/Berlin-Creative-professionals-Meetup/","open",2177,"Berlin Creative professionals Meetup",18902515,"Berlin-Creative-professionals-Meetup","creative professionals",34
+"DE","public","Berlin",1441624504000,"https://www.meetup.com/ReDI-school/","open",1522,"ReDI School of Digital Integration - Berlin",18907197,"ReDI-school","Friends of ReDI School",34
+"DE","public","Berlin",1442760147000,"https://www.meetup.com/Data-Science-Meetup/","open",706,"Data Science Meetup",18950004,"Data-Science-Meetup","Data Scientist",34
+"DE","public","Berlin",1443081255000,"https://www.meetup.com/NewStore/","open",1375,"NewStore TechTalks",18962793,"NewStore","NewStorians",34
+"DE","public","Berlin",1444238698000,"https://www.meetup.com/12minB/","open",3679,"12min.me Berlin",19005252,"12minB","12minuters",34
+"DE","public","Berlin",1444576583000,"https://www.meetup.com/The-Berlin-Web-App-Builders-Meetup/","open",733,"The Berlin Web App Builders Meetup",19016697,"The-Berlin-Web-App-Builders-Meetup","Web App Builders",34
+"DE","public","Berlin",1444652131000,"https://www.meetup.com/Honeypot/","open",519,"Honeypot Tech Meetups",19019494,"Honeypot","Members",34
+"DE","public","Berlin",1445003373000,"https://www.meetup.com/Berlin-Realtime-Web-Meetup/","open",584,"Berlin Realtime Web Meetup",19032815,"Berlin-Realtime-Web-Meetup","realtime enthusiasts",34
+"DE","public","Berlin",1446054320000,"https://www.meetup.com/School-of-Machines-Making-Make-Believe/","open",847,"School of Machines, Making & Make-Believe",19069587,"School-of-Machines-Making-Make-Believe","Creatives",34
+"DE","public","Berlin",1447081560000,"https://www.meetup.com/IoT-Innovation-Lab/","open",1162,"IoT Innovation Lab",19104911,"IoT-Innovation-Lab","IoT Lovers",34
+"DE","public","Berlin",1447270311000,"https://www.meetup.com/HFberlin/","open",3105,"Hackers / Founders Berlin",19112396,"HFberlin","Hackers / Founders",34
+"DE","public","Berlin",1447510343000,"https://www.meetup.com/Advanced-Spark-and-TensorFlow-Berlin/","open",564,"Advanced Spark and TensorFlow Meetup (Berlin)",19120686,"Advanced-Spark-and-TensorFlow-Berlin","Spark and TensorFlow Experts",34
+"DE","public","Berlin",1447769192000,"https://www.meetup.com/fullstack-berlin/","open",897,"Fullstack.JS Berlin",19130411,"fullstack-berlin","Fullstackers",34
+"DE","public","Berlin",1447854807000,"https://www.meetup.com/Berlin-Cloud/","open",468,"Berlin Cloud Computing",19133638,"Berlin-Cloud","Cloudies",34
+"DE","public","Berlin",1447920165000,"https://www.meetup.com/Berlin-JS/","open",1985,"Berlin.JS",19136067,"Berlin-JS","Berlin JavaScripters",34
+"DE","public","Berlin",1448360002000,"https://www.meetup.com/ScienceB0/","open",510,"Blockchain for Science",19150511,"ScienceB0","Cypherscientists",34
+"DE","public","Berlin",1448648817000,"https://www.meetup.com/Berlin-Basic-Income-Bedingungsloses-Grundeinkommen/","open",474,"Berlin Basic Income - Bedingungsloses Grundeinkommen",19159915,"Berlin-Basic-Income-Bedingungsloses-Grundeinkommen","Basic Income Advocates",34
+"DE","public","Berlin",1448793234000,"https://www.meetup.com/Domain-Driven-Design-Berlin/","open",1007,"Domain Driven Design Berlin Meetup",19164508,"Domain-Driven-Design-Berlin","Domain Driven Designers",34
+"DE","public","Berlin",1449224980000,"https://www.meetup.com/berlin-javascript-playback/","open",419,"The Berlin JavaScript Playback Meetup",19180956,"berlin-javascript-playback","Watchers",34
+"DE","public","Berlin",1449485636000,"https://www.meetup.com/Hackathons-Berlin-and-beyond/","open",894,"Hackathons and Startup Challenges in Berlin and beyond",19189905,"Hackathons-Berlin-and-beyond","Hackathletes",34
+"DE","public","Berlin",1450175476000,"https://www.meetup.com/OpenAI-Berlin/","open",406,"OpenAI Berlin",19213918,"OpenAI-Berlin","Members",34
+"DE","public","Berlin",1450716371000,"https://www.meetup.com/ELTA-Legal-Tech/","open",617,"ELTA Legal Tech & Innovation Meetup",19229913,"ELTA-Legal-Tech","Legal Innovators",34
+"DE","public","Berlin",1451249675000,"https://www.meetup.com/InsurTech_Berlin/","open",612,"InsurTech Meetup Berlin",19243622,"InsurTech_Berlin","Members",34
+"DE","public","Berlin",1452424302000,"https://www.meetup.com/N3XTCODER-Technology-SocialBusiness/","open",568,"N3XTCODER Technology&SocialBusiness",19313346,"N3XTCODER-Technology-SocialBusiness","N3XTCODERS",34
+"DE","public","Berlin",1452486443000,"https://www.meetup.com/Berlin-Startup-Idea-to-IPO/","open",472,"Berlin Startup: Idea to IPO",19318105,"Berlin-Startup-Idea-to-IPO","Entrepreneurs",34
+"DE","public","Berlin",1452639457000,"https://www.meetup.com/A-Better-Africa-With-Tech-ABAWT-Meetup/","open",522,"A Better Africa With Tech (ABAWT) Meetup",19329355,"A-Better-Africa-With-Tech-ABAWT-Meetup","ABAWTs",34
+"DE","public","Berlin",1452958752000,"https://www.meetup.com/UX-Book-Club-Berlin/","open",659,"UX Book Club Berlin",19348733,"UX-Book-Club-Berlin","Bookworms",34
+"DE","public","Berlin",1453639112000,"https://www.meetup.com/Berlin-Open-Source/","open",859,"Berlin Open Source",19425020,"Berlin-Open-Source","geeks",34
+"DE","public","Berlin",1453905112000,"https://www.meetup.com/Behavioral-Science-Berlin/","open",1090,"Behavioral Science Berlin",19446114,"Behavioral-Science-Berlin","Members",34
+"DE","public","Berlin",1454347251000,"https://www.meetup.com/Find-Software-Developers/","open",504,"Find Software-Developers",19484292,"Find-Software-Developers","DevFinders",34
+"DE","public","Berlin",1454579862000,"https://www.meetup.com/Bots-Berlin-Build-better-conversational-interfaces-with-AI/","open",1822,"Bots Berlin: Build better conversational interfaces with AI",19507101,"Bots-Berlin-Build-better-conversational-interfaces-with-AI","bots",34
+"DE","public","Berlin",1454754250000,"https://www.meetup.com/Berlin-Ausflug/","open",522,"Berlin Ausflug",19522364,"Berlin-Ausflug","Mitglieder",34
+"DE","public","Berlin",1455460745000,"https://www.meetup.com/Dubsmash-Tech-Talks/","open",502,"Dubsmash Tech Talks",19568422,"Dubsmash-Tech-Talks","Dubsmashers",34
+"DE","public","Berlin",1455923696000,"https://www.meetup.com/BerlinAI/","open",1372,"Berlin AI",19595792,"BerlinAI","Members",34
+"DE","public","Berlin",1456126747000,"https://www.meetup.com/Udacity-Berlin-Meetup/","open",559,"Udacity Berlin Meetup",19606937,"Udacity-Berlin-Meetup","Udacians",34
+"DE","public","Berlin",1456394629000,"https://www.meetup.com/BerliNERDS-Digital-Intelligence/","open",543,"BerliNERDS - Digital Intelligence",19623299,"BerliNERDS-Digital-Intelligence","BerliNERDS",34
+"DE","public","Berlin",1456577494000,"https://www.meetup.com/Berlin-AI-Machine-Learning-NLP-Students-Meetup/","open",508,"Berlin Students & Professionals AI, Machine Learning & NLP",19632541,"Berlin-AI-Machine-Learning-NLP-Students-Meetup","AI Enthusiasts",34
+"DE","public","Berlin",1456587554000,"https://www.meetup.com/Berlin-Artificial-Creativity-Meetup/","open",979,"Berlin Artificial Creativity Meetup",19633048,"Berlin-Artificial-Creativity-Meetup","humans & bots",34
+"DE","public","Berlin",1456757853000,"https://www.meetup.com/GOTO-Nights-Berlin/","open",2719,"GOTO Nights Berlin",19642085,"GOTO-Nights-Berlin","GOTO Berliner",34
+"DE","public_limited","Berlin",1456913123000,"https://www.meetup.com/SportsTech-Germany/","open",714,"SportsTech Germany",19651624,"SportsTech-Germany","Developers, Athletes, Coaches",34
+"DE","public","Berlin",1457123446000,"https://www.meetup.com/netlight-events-berlin/","open",536,"Netlight Events Berlin",19662843,"netlight-events-berlin","Members",34
+"DE","public","Berlin",1458550725000,"https://www.meetup.com/Hyperledger-Berlin/","open",693,"Hyperledger Berlin",19737926,"Hyperledger-Berlin","Members",34
+"DE","public","Berlin",1458643907000,"https://www.meetup.com/Berlin-Maker-Faire-Meetup/","open",551,"Berlin Maker Faire Meetup",19743167,"Berlin-Maker-Faire-Meetup","Maker",34
+"DE","public","Berlin",1458678699000,"https://www.meetup.com/Berlin-UI-UX-Designers-Meetup/","open",4075,"Berlin UI/UX Designers Meetup",19745250,"Berlin-UI-UX-Designers-Meetup","Designers",34
+"DE","public","Berlin",1458758826000,"https://www.meetup.com/Berlin-Hacker-News-Meetup/","open",1556,"Berlin Hacker News Meetup",19749103,"Berlin-Hacker-News-Meetup","Hackers",34
+"DE","public","Berlin",1459443022000,"https://www.meetup.com/Decentralized-Systems-Hack-Learn/","open",413,"Decentralized Systems",19782031,"Decentralized-Systems-Hack-Learn","Members",34
+"DE","public","Berlin",1460046378000,"https://www.meetup.com/DigitalOceanBerlin/","open",1528,"DigitalOcean Berlin",19812581,"DigitalOceanBerlin","Sharks",34
+"DE","public","Berlin",1460276550000,"https://www.meetup.com/Virtual-Reality-Developers-Berlin/","approval",574,"Virtual Reality Developers Berlin",19822369,"Virtual-Reality-Developers-Berlin","Virtual Reality Developers",34
+"DE","public","Berlin",1460298824000,"https://www.meetup.com/Berlin-Real-World-Data-Science-Machine-Learning-Group/","open",489,"Berlin Real World Data Science/Machine Learning Group",19823181,"Berlin-Real-World-Data-Science-Machine-Learning-Group","Real World Data Thugs",34
+"DE","public","Berlin",1461614461000,"https://www.meetup.com/graphql-berlin/","open",749,"GraphQL Berlin",19882459,"graphql-berlin","GraphQLers",34
+"DE","public","Berlin",1462252372000,"https://www.meetup.com/Serverless-Berlin/","open",486,"Serverless Berlin",19910252,"Serverless-Berlin","Members",34
+"DE","public","Berlin",1462748810000,"https://www.meetup.com/newspace/","open",808,"NewSpaceVision",19930088,"newspace","Space Enthusiasts",34
+"DE","public","Berlin",1463559855000,"https://www.meetup.com/On-Product/","open",1723,"On Product",19967105,"On-Product","product lovers",34
+"DE","public","Berlin",1464258205000,"https://www.meetup.com/DesignLabBerlin/","approval",818,"Design Lab Berlin",19998285,"DesignLabBerlin","Designers",34
+"DE","public","Berlin",1464336505000,"https://www.meetup.com/BlockchainHub-Berin/","open",728,"BlockchainHub Berlin",20001912,"BlockchainHub-Berin","Members",34
+"DE","public","Berlin",1464729806000,"https://www.meetup.com/Elasticsearch-Berlin/","open",955,"Elasticsearch Berlin",20018955,"Elasticsearch-Berlin","Members",34
+"DE","public","Berlin",1465904643000,"https://www.meetup.com/Berlin-Voice-Interfaces/","open",1125,"Amazon Alexa, Google Home & other Voice Interfaces - Berlin",20072399,"Berlin-Voice-Interfaces","Voice Interface Fans",34
+"DE","public","Berlin",1465917799000,"https://www.meetup.com/BCGDV-Startup-Talks/","open",1485,"BCGDV Startup Talks",20073055,"BCGDV-Startup-Talks","Members",34
+"DE","public","Berlin",1465931695000,"https://www.meetup.com/Aktion-Freiheit-statt-Angst/","open",473,"Datenschutz & Informationsfreiheit",20073924,"Aktion-Freiheit-statt-Angst","Aktive & Interessierte",34
+"DE","public","Berlin",1466629767000,"https://www.meetup.com/UXconverts/","open",649,"UXconverts Berlin",20104545,"UXconverts","UXconverts",34
+"DE","public","Berlin",1467184626000,"https://www.meetup.com/HERE-Tech-Social-Berlin/","open",985,"HERE Tech. Social - Berlin",20127098,"HERE-Tech-Social-Berlin","Members",34
+"DE","public","Berlin",1467190785000,"https://www.meetup.com/Lieferando-Tech-Events-Berlin/","open",542,"Lieferando Tech Events Berlin",20127258,"Lieferando-Tech-Events-Berlin","Members",34
+"DE","public","Berlin",1467724844000,"https://www.meetup.com/Berlin-PHP-Usergroup/","open",596,"Berlin PHP Usergroup",20148431,"Berlin-PHP-Usergroup","Members",34
+"DE","public","Berlin",1468438984000,"https://www.meetup.com/berlin-lean-prototyping/","open",1858,"Berlin Lean Prototyping",20180659,"berlin-lean-prototyping","Members",34
+"DE","public","Berlin",1468603244000,"https://www.meetup.com/beyond-machine/","open",512,"Artificial Intelligence (AI) & Machine Learning Bootcamps",20187564,"beyond-machine","Members",34
+"DE","public","Berlin",1468994765000,"https://www.meetup.com/Big-Data-Next-Gen-Hadoop-Ingest-Transform-Berlin/","open",532,"Big Data (Next Gen Hadoop) Ingest & Transform, Berlin",20204071,"Big-Data-Next-Gen-Hadoop-Ingest-Transform-Berlin","Big Data Ingesters",34
+"DE","public","Berlin",1469019602000,"https://www.meetup.com/VRARxD-Berlin/","open",577,"VR/AR Experience Design Berlin",20204892,"VRARxD-Berlin","VR/AR enthusiasts",34
+"DE","public","Berlin",1469706835000,"https://www.meetup.com/creativeVR/","open",640,"Creative Virtual Reality",20233601,"creativeVR","( ‾ʖ̫‾)",34
+"DE","public","Berlin",1470580236000,"https://www.meetup.com/Berlin-Microsoft-Azure-Meetup/","open",874,"Azure Meetup Berlin",20288976,"Berlin-Microsoft-Azure-Meetup","Members",34
+"DE","public","Berlin",1471167410000,"https://www.meetup.com/Berlin-AI-meetup/","open",1081,"Berlin Artificial Intelligence Meetup",20313455,"Berlin-AI-meetup","Members",34
+"DE","public","Berlin",1472569505000,"https://www.meetup.com/CODING-BERLIN/","open",561,"coding berlin",20370223,"CODING-BERLIN","Coders",34
+"DE","public","Berlin",1472714976000,"https://www.meetup.com/Large-Scale-Scrum-Berlin/","open",962,"Large Scale Scrum Berlin",20376413,"Large-Scale-Scrum-Berlin","Mitglieder",34
+"DE","public","Berlin",1472904792000,"https://www.meetup.com/ReactJS-and-React-Native-Berlin/","open",2192,"React.js & React Native Berlin",20383485,"ReactJS-and-React-Native-Berlin","Members",34
+"DE","public","Berlin",1473262120000,"https://www.meetup.com/turkishtech/","open",603,"Turkish Tech Berlin",20398362,"turkishtech","Members",34
+"DE","public","Berlin",1475246024000,"https://www.meetup.com/JavaScript-Berlin/","open",495,"JavaScript Berlin",20529795,"JavaScript-Berlin","JavaScripters",34
+"DE","public","Berlin",1475668274000,"https://www.meetup.com/TheFamilyBerlin/","open",4497,"The Family Startup Lovers in Berlin",20610369,"TheFamilyBerlin","Startup lovers",34
+"DE","public","Berlin",1475876854000,"https://www.meetup.com/Cloud-Native-Computing-Berlin/","open",717,"Cloud Native Computing Berlin",20643195,"Cloud-Native-Computing-Berlin","Natives",34
+"DE","public","Berlin",1476792830000,"https://www.meetup.com/Signavio-Tech-Talks/","open",442,"Signavio Tech Talks",20784313,"Signavio-Tech-Talks","Members",34
+"DE","public","Berlin",1476966315000,"https://www.meetup.com/BCG-Digital-Ventures-Berlin-Tech-Meetup/","open",444,"BCG Digital Ventures Berlin Tech Meetup",20818467,"BCG-Digital-Ventures-Berlin-Tech-Meetup","Members",34
+"DE","public","Berlin",1477064236000,"https://www.meetup.com/berlin-deep-learning/","open",991,"Deep Learning Berlin",20838390,"berlin-deep-learning","Deep Learners",34
+"DE","public","Berlin",1478727521000,"https://www.meetup.com/PR-Do-it-yourself-Now-the-guerilla-way-you-can-do-it/","open",1566,"PR - Do-it-yourself ! Now! the guerilla way, WITHOUT MONEY",21106891,"PR-Do-it-yourself-Now-the-guerilla-way-you-can-do-it","Mitglieder",34
+"DE","public","Berlin",1479216076000,"https://www.meetup.com/LTUX-Berlin/","open",883,"LTUX Berlin",21186412,"LTUX-Berlin","Members",34
+"DE","public","Berlin",1479311796000,"https://www.meetup.com/VR-in-Science-Science-in-VR/","open",502,"VR in Science - Science in VR",21197986,"VR-in-Science-Science-in-VR","VR Scientists",34
+"DE","public","Berlin",1479740060000,"https://www.meetup.com/Mayflower-Meetup-Berlin/","open",713,"Mayflower Meetup Berlin",21245564,"Mayflower-Meetup-Berlin","Mitglieder",34
+"DE","public","Berlin",1479909210000,"https://www.meetup.com/kotlin-berlin/","open",584,"Kotlin user group Berlin",21262742,"kotlin-berlin","Kotlin fans",34
+"DE","public","Berlin",1480330155000,"https://www.meetup.com/9984-Meetup/","open",1241,"9984 >> Blockchain Meetup",21301439,"9984-Meetup","Members",34
+"DE","public","Berlin",1480930828000,"https://www.meetup.com/Le-Wagon-Berlin-Coding-Bootcamp/","open",2035,"Le Wagon Berlin - Coding Bootcamp",21449749,"Le-Wagon-Berlin-Coding-Bootcamp","Members",34
+"DE","public","Berlin",1481545659000,"https://www.meetup.com/Performance-Content-Marketing-Seo-Meetup-Berlin/","open",566,"Performance Content Marketing und SEO Meetup Berlin",21554654,"Performance-Content-Marketing-Seo-Meetup-Berlin","Mitglieder",34
+"DE","public","Berlin",1481723540000,"https://www.meetup.com/Amazon-Appsters-Berlin/","open",818,"Amazon Appsters - Berlin",21571781,"Amazon-Appsters-Berlin","Amazon Appsters",34
+"DE","public","Berlin",1484657331000,"https://www.meetup.com/20x20-Agile-Night/","open",497,"20x20 Agile Night",21965865,"20x20-Agile-Night","Mitglieder",34
+"DE","public","Berlin",1485199128000,"https://www.meetup.com/codecentric-Berlin/","open",807,"codecentric Berlin",22048639,"codecentric-Berlin","Members",34
+"DE","public","Berlin",1485336945000,"https://www.meetup.com/IoT-Brunch/","open",1894,"IoT Brunch",22073532,"IoT-Brunch","Members",34
+"DE","public","Berlin",1485342176000,"https://www.meetup.com/GTEC-Meetups/","open",981,"German Tech Entrepreneurship Center (GTEC)",22073990,"GTEC-Meetups","Members",34
+"DE","public","Berlin",1485860967000,"https://www.meetup.com/Vue-js-Berlin/","open",730,"Vue.js // Berlin",22176763,"Vue-js-Berlin","Vue'sers",34
+"DE","public","Berlin",1486132002000,"https://www.meetup.com/Berlin-Music-Information-Retrieval-Meetup/","open",470,"Berlin Music Information Retrieval Meetup",22215665,"Berlin-Music-Information-Retrieval-Meetup","Members",34
+"DE","public","Berlin",1486136444000,"https://www.meetup.com/Lisk-Blockchain/","open",1108,"Lisk - Blockchain Application Platform",22216242,"Lisk-Blockchain","Liskers",34
+"DE","public","Berlin",1486780333000,"https://www.meetup.com/Berlin-Artificial-Intelligence-Deep-Learning/","open",1698,"Berlin Artificial Intelligence & Deep Learning",22328601,"Berlin-Artificial-Intelligence-Deep-Learning","Makers",34
+"DE","public","Berlin",1487104212000,"https://www.meetup.com/meetup-group-predictive-analytics-berlin/","open",559,"Predictive Analytics",22391172,"meetup-group-predictive-analytics-berlin","Data Lovers",34
+"DE","public","Berlin",1487153999000,"https://www.meetup.com/Kreatives-Netzwerken/","open",641,"Kreatives Netzwerken",22399811,"Kreatives-Netzwerken","Mitglieder",34
+"DE","public","Berlin",1487454755000,"https://www.meetup.com/Cryptotrading-Investing/","open",613,"Crypto Economics & Long Term Investing",22458909,"Cryptotrading-Investing","Mitglieder",34
+"DE","public","Berlin",1488818603000,"https://www.meetup.com/Machine-Learning-in-Health/","open",600,"Machine Learning in Health",22796327,"Machine-Learning-in-Health","Members",34
+"DE","public","Berlin",1489152251000,"https://www.meetup.com/Codeathletics/","open",847,"Code Athletics",22836285,"Codeathletics","Mitglieder",34
+"DE","public","Berlin",1489418431000,"https://www.meetup.com/Data-Machina/","open",482,"Data Machina",22870358,"Data-Machina","Data Machinistas",34
+"DE","public","Berlin",1489590924000,"https://www.meetup.com/kubernauts/","open",708,"Kubernauts Worldwide Meetup",22892957,"kubernauts","Kubernauts",34
+"DE","public","Berlin",1490286760000,"https://www.meetup.com/Cryptoeconomics/","open",679,"Cryptoeconomics",22983621,"Cryptoeconomics","Members",34
+"DE","public","Berlin",1490308689000,"https://www.meetup.com/Women-Techmakers-Berlin/","open",1785,"Women Techmakers Berlin",22986801,"Women-Techmakers-Berlin","Members",34
+"DE","public","Berlin",1490609719000,"https://www.meetup.com/Blockchain-IoT-Meetup/","open",1165,"IoT & Blockchain Meetup",23025005,"Blockchain-IoT-Meetup","Mitglieder",34
+"DE","public","Berlin",1491209143000,"https://www.meetup.com/Berlin-Open-Source-Tech-Meet-up/","open",431,"Berlin Tech Meet-Up",23121222,"Berlin-Open-Source-Tech-Meet-up","Members",34
+"DE","public","Berlin",1491819950000,"https://www.meetup.com/socialdigital/","open",493,"Social-Digital Innovation meetup Berlin",23229321,"socialdigital","Entreprenerds",34
+"DE","public","Berlin",1492503592000,"https://www.meetup.com/Future-Logistics/","open",552,"Future Logistics",23326206,"Future-Logistics","Members",34
+"DE","public_limited","Berlin",1494081952000,"https://www.meetup.com/Monero-Berlin/","open",477,"Monero Berlin",23635682,"Monero-Berlin","Monero Bagholders",34
+"DE","public","Berlin",1496128127000,"https://www.meetup.com/App-development-for-everyone/","open",492,"App development for everyone",24141506,"App-development-for-everyone","App Developers",34
+"DE","public","Berlin",1496415969000,"https://www.meetup.com/edulabsBE/","open",452,"edulabs Berlin",24225778,"edulabsBE","Members",34
+"DE","public","Berlin",1496749577000,"https://www.meetup.com/PropellorFilmTechBerlin/","open",1180,"FilmTech Meetup Berlin",24310410,"PropellorFilmTechBerlin","Mitglieder",34
+"DE","public","Berlin",1497128023000,"https://www.meetup.com/Deep-Learning-with-TensorFlow-keras-on-Blockchain/","open",576,"Deep Learning with TensorFlow & keras on Blockchain",24395538,"Deep-Learning-with-TensorFlow-keras-on-Blockchain","DeepLearner",34
+"DE","public","Berlin",1499108283000,"https://www.meetup.com/Berlin-Machine-Learning-Study-Group/","open",652,"Berlin Machine Learning Study Group",24814122,"Berlin-Machine-Learning-Study-Group","Members",34
+"DE","public","Berlin",1499240989000,"https://www.meetup.com/RecdoTech/","open",722,"RecdoTech Meetups",24840444,"RecdoTech","Members",34
+"DE","public","Berlin",1500987542000,"https://www.meetup.com/Blockchain-Tangle-and-beyond/","approval",872,"Blockchain, Tangle and beyond",25129378,"Blockchain-Tangle-and-beyond","Mitglieder",34
+"DE","public","Berlin",1501142874000,"https://www.meetup.com/Product-Owners-Berlin/","open",434,"Product Owners Berlin Meetup",25162248,"Product-Owners-Berlin","Mitglieder",34
+"DE","public","Berlin",1501512355000,"https://www.meetup.com/Blockchain-Creativity-meetup/","open",1583,"Trivial.co: Blockchain & Creativity meetups",25249851,"Blockchain-Creativity-meetup","Members",34
+"DE","public","Berlin",1502101889000,"https://www.meetup.com/Data-Science-Community-Day/","open",538,"Data Science Community Day",25386421,"Data-Science-Community-Day","Data Scientists",34
+"DE","public","Berlin",1502705282000,"https://www.meetup.com/Blockchain-Berlin/","open",1153,"Ethereum Berlin",25478268,"Blockchain-Berlin","Members",34
+"DE","public","Berlin",1503406323000,"https://www.meetup.com/The-Blockchain-Bible-Episode-1-Block-one/","open",1070,"The Blockchain Bible",25583461,"The-Blockchain-Bible-Episode-1-Block-one","Membri",34
+"DE","public","Berlin",1504593821000,"https://www.meetup.com/People-Tech/","open",583,"People + Tech",25779542,"People-Tech","Members",34
+"DE","public","Berlin",1504597167000,"https://www.meetup.com/React-Open-Source/","open",417,"React Open Source",25779929,"React-Open-Source","React Fans",34
+"DE","public","Berlin",1504963547000,"https://www.meetup.com/TICA-Tokens-ICOs-Cryptocurrencies-Meetup/","open",864,"TICA - Tokens ICOs & Cryptocurrencies Meetup",25850006,"TICA-Tokens-ICOs-Cryptocurrencies-Meetup","Members",34
+"DE","public","Berlin",1505206143000,"https://www.meetup.com/Assets-on-the-Blockchain-Workshop-4-Techies-and-Developer/","open",403,"Usecases on the Blockchain for Techies and Cryptonauts",25891065,"Assets-on-the-Blockchain-Workshop-4-Techies-and-Developer","Mitglieder",34
+"DE","public","Berlin",1506091278000,"https://www.meetup.com/GitHub-Events-Berlin/","open",501,"GitHub Events Berlin",26013648,"GitHub-Events-Berlin","Members",34
+"DE","public","Berlin",1509345044000,"https://www.meetup.com/product-people/","open",580,"Product People",26435694,"product-people","Members",34
+"DE","public","Berlin",1510589703000,"https://www.meetup.com/Digital-Shapers/","open",809,"Digital Shapers",26586284,"Digital-Shapers","Digital Shapers",34
+"DE","public","Berlin",1511302716000,"https://www.meetup.com/ConsenSys-Berlin-Meetup/","open",402,"ConsenSys Ethereum Meetup Berlin",26666635,"ConsenSys-Berlin-Meetup","Members",34
+"DE","public","Berlin",1511954195000,"https://www.meetup.com/Silicon-Allee-Events/","open",662,"Silicon Allee Events",26735498,"Silicon-Allee-Events","Members",34
+"DE","public","Berlin",1512772435000,"https://www.meetup.com/blockchainworkshops/","open",433,"Blockchain Workshops Berlin",26821149,"blockchainworkshops","Members",34
+"DE","public","Berlin",1513164325000,"https://www.meetup.com/cryptotank/","open",601,"Cryptotank Meetups",26860624,"cryptotank","Members",34
+"DE","public","Berlin",1514536667000,"https://www.meetup.com/Bitcoin-Crypto-Currency-Invest-ICO-by-Cryptario-Berlin/","open",473,"Bitcoin, Crypto Currency, Invest & ICO by Cryptario Berlin",26992200,"Bitcoin-Crypto-Currency-Invest-ICO-by-Cryptario-Berlin","Crypto-Heroes",34
+"DE","public","München",1308160264000,"https://www.meetup.com/Muenchen-MongoDB-User-Group/","open",629,"München MongoDB User Group",2026431,"Muenchen-MongoDB-User-Group","Members",34
+"DE","public","München",1316988882000,"https://www.meetup.com/QS-Munich/","open",456,"The Munich Quantified Self Meetup Group",2542242,"QS-Munich","Self-Quantifiers",34
+"DE","public","München",1327235091000,"https://www.meetup.com/Creative-Coding/","open",903,"Creative Coding",3147322,"Creative-Coding","Creative Coders",34
+"DE","public","München",1328820641000,"https://www.meetup.com/IoTMunich/","open",2788,"Internet of Things Munich",3265392,"IoTMunich","Sensemakers",34
+"DE","public","München",1328897556000,"https://www.meetup.com/Lean-Startup-Munich/","open",2443,"Lean Startup München (Munich)",3270542,"Lean-Startup-Munich","Practicioners",34
+"DE","public","München",1344375043000,"https://www.meetup.com/ScalaMuc/","open",1000,"Munich Scala User Group",4493412,"ScalaMuc","Scalaphiles",34
+"DE","public","München",1344862215000,"https://www.meetup.com/Hadoop-User-Group-Munich/","open",1149,"Spark & Hadoop User Group Munich",4533812,"Hadoop-User-Group-Munich","Data Scientists, DevOps",34
+"DE","public","München",1346446823000,"https://www.meetup.com/graphdb-munich/","open",452,"Graph Database - München",4714762,"graphdb-munich","graphistas",34
+"DE","public","München",1347279559000,"https://www.meetup.com/MUC-SEC/","open",537,"MUC:SEC",4858332,"MUC-SEC","Professionals",34
+"DE","public","München",1347703211000,"https://www.meetup.com/Lightweight-Java-User-Group-Munchen/","open",1328,"Lightweight Java User Group München",4939632,"Lightweight-Java-User-Group-Munchen","Lightweights",34
+"DE","public","München",1352113911000,"https://www.meetup.com/online-learning-enthusiasts-munich/","open",722,"Online learning enthusiasts (Coursera, edX, Udacity, etc.)",5707402,"online-learning-enthusiasts-munich","Learners",34
+"DE","public","München",1357914433000,"https://www.meetup.com/phpugmunich/","open",958,"PHP User Group Munich",6604672,"phpugmunich","PHP Developers",34
+"DE","public","München",1358933383000,"https://www.meetup.com/Ember-js-Munich/","open",466,"Ember.js Munich",6799692,"Ember-js-Munich","mEmbers",34
+"DE","public","München",1359352805000,"https://www.meetup.com/Munich-Node-js-User-Group/","open",1142,"Munich Node.js User Group",6885032,"Munich-Node-js-User-Group","Nodehackers",34
+"DE","public","München",1363535987000,"https://www.meetup.com/The-Hacking-Room-Project-Munich/","open",581,"Munich Maker Lab",7655642,"The-Hacking-Room-Project-Munich","Hackers",34
+"DE","public","München",1363874427000,"https://www.meetup.com/OpenHack-Munich/","open",698,"OpenHack Munich",7720232,"OpenHack-Munich","OpenHacker",34
+"DE","public","München",1363945560000,"https://www.meetup.com/UX-Munich/","open",708,"MÜX - München UX Practitioners",7732932,"UX-Munich","Members",34
+"DE","public","München",1367315585000,"https://www.meetup.com/gamedevmuc/","open",1274,"GAME/DEV/MUC (formerly Munich Indie)",8285482,"gamedevmuc","Game Developers",34
+"DE","public","München",1369137169000,"https://www.meetup.com/Gutefrage-IT-Drinkup/","open",693,"Gutefrage IT Drinkup",8579232,"Gutefrage-IT-Drinkup","Besucher",34
+"DE","public","München",1369598258000,"https://www.meetup.com/Munich-Datageeks/","open",4045,"Munich Datageeks",8650402,"Munich-Datageeks","Datageeks",34
+"DE","public","München",1370808069000,"https://www.meetup.com/Munich-Rubyshift-Ruby-User-Group/","open",433,"Munich Rubyshift, Ruby User Group",8851722,"Munich-Rubyshift-Ruby-User-Group","Rubyists",34
+"DE","public","München",1372413211000,"https://www.meetup.com/Munich-Lambda/","open",564,"Munich Lambda",9128172,"Munich-Lambda","Hackers",34
+"DE","public","München",1372415991000,"https://www.meetup.com/Bitcoin-Munich/","open",2799,"Bitcoin Munich",9128392,"Bitcoin-Munich","Bitcoiners",34
+"DE","public","München",1374565706000,"https://www.meetup.com/Coding-Dojo-Munich/","open",436,"Munich Coding Dojo",9479322,"Coding-Dojo-Munich","Coders",34
+"DE","public","München",1378665767000,"https://www.meetup.com/Create-High-Performing-Teams/","open",831,"Create High Performing Teams",10162532,"Create-High-Performing-Teams","Leaders",34
+"DE","public","München",1380279486000,"https://www.meetup.com/Agile-Testing-Munich/","open",792,"Agile Testing @Munich",10450142,"Agile-Testing-Munich","Mitglieder",34
+"DE","public","München",1380570710000,"https://www.meetup.com/Munchen-robotics-enthusiasts/","approval",414,"München robotics enthusiasts",10495202,"Munchen-robotics-enthusiasts","Robotics enthusiasts",34
+"DE","public","München",1381480454000,"https://www.meetup.com/Mobile-Dev-Munich/","open",554,"Mobile Dev Group Munich",10644192,"Mobile-Dev-Munich","Mobile Users",34
+"DE","public","München",1381869297000,"https://www.meetup.com/MUCplusplus/","open",1669,"MUC++",10704512,"MUCplusplus","C++ aficionados",34
+"DE","public","München",1383661940000,"https://www.meetup.com/The-Munich-iOS-Developers-Meetup/","open",936,"The Munich iOS Developers Meetup",10979402,"The-Munich-iOS-Developers-Meetup","iOS aficionados",34
+"DE","public","München",1384777702000,"https://www.meetup.com/Search-Meetup-Munich/","open",1095,"Search Meetup Munich",11150702,"Search-Meetup-Munich","Searchers Munchen",34
+"DE","public","München",1389356187000,"https://www.meetup.com/Munich-NoSQL-Meetup/","open",722,"Munich NoSQL",11993922,"Munich-NoSQL-Meetup","NoSQList",34
+"DE","public","München",1391009463000,"https://www.meetup.com/DevOpsMunich/","open",1405,"DevOps Munich",12572892,"DevOpsMunich","DevOps",34
+"DE","public","München",1391022537000,"https://www.meetup.com/Angular-Munich/","open",1347,"Angular Munich Meetup",12579092,"Angular-Munich","User",34
+"DE","public","München",1392297694000,"https://www.meetup.com/GeoDev-Germany/","approval",543,"GeoDev Germany",12861632,"GeoDev-Germany","GeoGeeks",34
+"DE","public","München",1394007789000,"https://www.meetup.com/JavaScript-CodeRetreat/","open",1060,"JavaScript CodeRetreat",13168132,"JavaScript-CodeRetreat","CleanCoders",34
+"DE","public","München",1396731662000,"https://www.meetup.com/Munich-Gophers-Go-User-Group/","open",702,"GDG Munich Gophers",13747262,"Munich-Gophers-Go-User-Group","Gophers",34
+"DE","public","München",1397242023000,"https://www.meetup.com/AgileMunich/","open",1671,"Agile Munich",13860382,"AgileMunich","Agile Practitioners",34
+"DE","public","München",1397741381000,"https://www.meetup.com/MunichJS-User-Group/","open",1619,"MunichJS – JavaScript User Group",13961362,"MunichJS-User-Group","Members",34
+"DE","public","München",1399578043000,"https://www.meetup.com/Microservices-Meetup-Munich/","open",2765,"Microservices Meetup Munich",14341692,"Microservices-Meetup-Munich","Members",34
+"DE","public","München",1400181332000,"https://www.meetup.com/Big-Data-Developers-in-Munich/","open",2814,"Big Data Developers in Munich",14476282,"Big-Data-Developers-in-Munich","Members",34
+"DE","public","München",1400514197000,"https://www.meetup.com/AWS-Munich/","open",2361,"Munich AWS User Group",14546712,"AWS-Munich","Members",34
+"DE","public","München",1400662449000,"https://www.meetup.com/Software-Performance-Meetup-Group/","open",939,"Software Performance Meetup Group",14586172,"Software-Performance-Meetup-Group","Performance Management Worker",34
+"DE","public","München",1401715052000,"https://www.meetup.com/deep-learning-meetup-munich/","open",2322,"Deep Learning Munich",14826202,"deep-learning-meetup-munich","Deep thinkers",34
+"DE","public","München",1402656904000,"https://www.meetup.com/Docker-Munich/","open",1507,"Docker Munich",15060472,"Docker-Munich","Dockers",34
+"DE","public","München",1403873702000,"https://www.meetup.com/Virtual-Reality-Germany/","open",685,"Virtual Reality Germany",15353772,"Virtual-Reality-Germany","Avatars",34
+"DE","public","München",1405064835000,"https://www.meetup.com/Munich-Tech-Media-Startups/","open",1196,"Munich Tech & Media Startup Meetup",15638632,"Munich-Tech-Media-Startups","Mitglieder",34
+"DE","public","München",1406460059000,"https://www.meetup.com/Munich-Python-User-Group/","open",1115,"München / Munich Python User Group",16000972,"Munich-Python-User-Group","Members",34
+"DE","public","München",1409065869000,"https://www.meetup.com/From-Big-Ideas-to-Great-Technology/","open",792,"From Big Ideas to Great Technology",16613142,"From-Big-Ideas-to-Great-Technology","Members",34
+"DE","public","München",1409592055000,"https://www.meetup.com/Big-Data-Munich/","open",3824,"Big Data, Munich",16729662,"Big-Data-Munich","Data Lovers, Munich",34
+"DE","public","München",1410761612000,"https://www.meetup.com/GotoStartups-Munich/","open",1253,"München / Munich - Entrepreneurs, Startups & Investors Group",16999242,"GotoStartups-Munich","Rockstar Entrepreneurs",34
+"DE","public","München",1411364401000,"https://www.meetup.com/MuniCSS-finest/","open",573,"MuniCSS finest",17136242,"MuniCSS-finest","CSSnerds",34
+"DE","public","München",1411685347000,"https://www.meetup.com/munich-software-craft-community/","open",1891,"Munich Software Craft Community",17214922,"munich-software-craft-community","Software Crafters",34
+"DE","public","München",1412720227000,"https://www.meetup.com/Make-Munich/","open",400,"Make Munich - Maker Fair & Do-It-Yourself Festival",17471122,"Make-Munich","Maker",34
+"DE","public","München",1413287136000,"https://www.meetup.com/Papers-We-Love-Munich/","open",587,"Papers We Love - Munich",17614202,"Papers-We-Love-Munich","Paper Readers",34
+"DE","public","München",1413448074000,"https://www.meetup.com/ThoughtWorks-Munich/","open",1948,"ThoughtWorks Munich",17658472,"ThoughtWorks-Munich","members",34
+"DE","public","München",1413460221000,"https://www.meetup.com/Munich-Frontend-Developers/","open",1103,"Munich Frontend Developers",17660862,"Munich-Frontend-Developers","Frontend Developers",34
+"DE","public","München",1413883137000,"https://www.meetup.com/inovex-munich/","open",489,"inovex Meetup Munich",17763402,"inovex-munich","Tech Heads",34
+"DE","public","München",1415373851000,"https://www.meetup.com/CoreOS-Munich/","open",401,"CoreOS Munich",18136772,"CoreOS-Munich","Members",34
+"DE","public","München",1416237535000,"https://www.meetup.com/Munchen-WordPress-Meetup/","open",699,"München WordPress Meetup",18195599,"Munchen-WordPress-Meetup","Teilnehmer",34
+"DE","public","München",1417449075000,"https://www.meetup.com/CloudFoundry-Munich/","open",779,"Cloud Foundry Munich",18225255,"CloudFoundry-Munich","CloudFounders",34
+"DE","public","München",1418065012000,"https://www.meetup.com/code-for-muenchen/","open",833,"Code for München",18240584,"code-for-muenchen","Mitglieder",34
+"DE","public","München",1418811406000,"https://www.meetup.com/Munich-Geekettes/","open",703,"Munich Geekettes",18258556,"Munich-Geekettes","Geekettes",34
+"DE","public","München",1421043158000,"https://www.meetup.com/Kotlin-User-Group-Munich/","open",477,"Kotlin User Group Munich - KUG Munich",18325305,"Kotlin-User-Group-Munich","KUG-Hacker",34
+"DE","public","München",1421661160000,"https://www.meetup.com/TechFounders-Munich-Networking-Group/","open",1697,"TechFounders Munich Networking Group",18352585,"TechFounders-Munich-Networking-Group","TechFounders Supporter",34
+"DE","public","München",1422029997000,"https://www.meetup.com/Munchen-Raspberry-Pi-Workshops/","open",437,"München Raspberry Pi Workshops",18370745,"Munchen-Raspberry-Pi-Workshops","Mitglieder",34
+"DE","public","München",1422975279000,"https://www.meetup.com/ComputerVision/","open",1203,"München Computer Vision & Medical Image Analysis Meetup",18408067,"ComputerVision","Visionists",34
+"DE","public","München",1423504307000,"https://www.meetup.com/Data-Driven-Business-Intelligence-Meetup/","open",575,"Data Driven & Business Intelligence Meetup",18422849,"Data-Driven-Business-Intelligence-Meetup","Data-Driven-People",34
+"DE","public","München",1423676119000,"https://www.meetup.com/Swift-Meetup-Munich/","open",758,"Swift Meetup Munich",18428182,"Swift-Meetup-Munich","Swift Developers",34
+"DE","public","München",1426084971000,"https://www.meetup.com/Google-Women-in-Technology-Munchen/","open",788,"Google Women Techmakers Munich",18493901,"Google-Women-in-Technology-Munchen","Techmakers",34
+"DE","public","München",1427915087000,"https://www.meetup.com/Atlassian-User-Group-Munchen/","open",648,"Atlassian User Group München",18529526,"Atlassian-User-Group-Munchen","Members",34
+"DE","public","München",1428699567000,"https://www.meetup.com/Hacks-Hackers-Munchen/","open",643,"Hacks/Hackers München",18542069,"Hacks-Hackers-Munchen","Hacks and Hackers",34
+"DE","public","München",1430484622000,"https://www.meetup.com/gdg-munich/","open",921,"GDG Munich",18571827,"gdg-munich","devs",34
+"DE","public","München",1430647334000,"https://www.meetup.com/Projektmanagement-Meetup-Roundtable/","open",1225,"Projektmanagement Meetup Roundtable",18574027,"Projektmanagement-Meetup-Roundtable","Mitglieder",34
+"DE","public","München",1432024523000,"https://www.meetup.com/Burda-Bootcamp/","open",930,"Burda Bootcamp",18608593,"Burda-Bootcamp","bootcampers",34
+"DE","public","München",1432850391000,"https://www.meetup.com/Munich-Product/","open",841,"Munich Product Love",18632821,"Munich-Product","Product Lovers",34
+"DE","public","München",1433427004000,"https://www.meetup.com/IXDS-Pre-Work-Talks-Munich/","open",721,"IXDS Pre-Work Talks Munich",18648649,"IXDS-Pre-Work-Talks-Munich","Members",34
+"DE","public","München",1434492135000,"https://www.meetup.com/Spark-Munich/","open",562,"Spark Munich",18677801,"Spark-Munich","Sparkista",34
+"DE","public","München",1435577493000,"https://www.meetup.com/PyMunich/","open",1158,"PyMunich",18706411,"PyMunich","Pythonistas",34
+"DE","public","München",1436911523000,"https://www.meetup.com/JS-Coding-Nights-Munich/","open",1256,"JavaScript Coding Nights Munich",18742132,"JS-Coding-Nights-Munich","Members",34
+"DE","public","München",1439451337000,"https://www.meetup.com/utum-x/","open",2978,"UnternehmerTUM [x]",18828826,"utum-x","Hackers, Designers & Makers",34
+"DE","public","München",1439803798000,"https://www.meetup.com/ReactJS-Meetup-Munich/","open",899,"ReactJS Meetup Munich",18840725,"ReactJS-Meetup-Munich","Reactors",34
+"DE","public","München",1440401819000,"https://www.meetup.com/stylight/","open",2886,"Stylight Tech Events",18862563,"stylight","Techies",34
+"DE","public","München",1442238396000,"https://www.meetup.com/Nerd-Rider-Munich/","open",412,"Nerd Rider Munich",18930367,"Nerd-Rider-Munich","Mitglieder",34
+"DE","public","München",1442324621000,"https://www.meetup.com/Deep-Learning-Applications-Munich/","open",668,"Deep Learning Applications Munich",18934152,"Deep-Learning-Applications-Munich","Deep Learning Practitioners",34
+"DE","public","München",1443569671000,"https://www.meetup.com/StartupBlink-Munchen/","open",417,"StartupBlink München",18980890,"StartupBlink-Munchen","StartupBlinkers",34
+"DE","public","München",1443688096000,"https://www.meetup.com/TechDivision-TechTalk-Munchen/","open",776,"TechDivision TechTalk München",18985124,"TechDivision-TechTalk-Munchen","Mitglieder",34
+"DE","public","München",1445008295000,"https://www.meetup.com/Applied-R-Munich/","open",851,"Applied R Munich",19033014,"Applied-R-Munich","UseR",34
+"DE","public","München",1445282356000,"https://www.meetup.com/cloud-native-muc/","open",761,"Cloud Native Night Munich",19042292,"cloud-native-muc","Cloud Native Nerds",34
+"DE","public","München",1446636558000,"https://www.meetup.com/Blockchain-Munich/","open",500,"Blockchain Technology Meetup",19089529,"Blockchain-Munich","Blockchain Technology Meetup",34
+"DE","public","München",1446783141000,"https://www.meetup.com/Munchen-Kubernetes-Meetup/","open",830,"München Kubernetes/Cloud-Native Meetup",19095162,"Munchen-Kubernetes-Meetup","Kubernauts",34
+"DE","public","München",1447913842000,"https://www.meetup.com/TensorFlow-Munchen/","open",839,"TensorFlow München",19135904,"TensorFlow-Munchen","Guild Members",34
+"DE","public","München",1448316136000,"https://www.meetup.com/GDG-Munich-Android/","open",691,"GDG Munich Android",19149051,"GDG-Munich-Android","Humble Android Coders",34
+"DE","public","München",1448830577000,"https://www.meetup.com/Continuous-Delivery-Munich/","open",750,"Continuous Delivery Munich",19165992,"Continuous-Delivery-Munich","Deliverators",34
+"DE","public","München",1449071585000,"https://www.meetup.com/IoT-Lab/","open",672,"IoT Lab - Internet of Things Lab",19175294,"IoT-Lab","Innovators",34
+"DE","public","München",1449155249000,"https://www.meetup.com/LV1871-Java-Coding-Dojo-Group/","open",404,"LV1871 Java Coding Dojo Group",19178292,"LV1871-Java-Coding-Dojo-Group","Java-Entwickler",34
+"DE","public","München",1450178009000,"https://www.meetup.com/OpenAI-Munchen/","open",765,"OpenAI München",19213981,"OpenAI-Munchen","Members",34
+"DE","public","München",1450779899000,"https://www.meetup.com/Munchen-Mixed-Reality-Meetup/","open",523,"München Mixed Reality Meetup",19231989,"Munchen-Mixed-Reality-Meetup","Mixed Reality Members",34
+"DE","public","München",1452872893000,"https://www.meetup.com/Machine-Learning-Munich/","open",2346,"Machine Learning Munich",19343753,"Machine-Learning-Munich","Machine Learners",34
+"DE","public","München",1453019823000,"https://www.meetup.com/Munchen-Startup-Idea-to-IPO/","open",408,"München Startup: Idea to IPO",19352629,"Munchen-Startup-Idea-to-IPO","Entrepreneurs",34
+"DE","public","München",1454600738000,"https://www.meetup.com/Linux-Stammtisch-Munchen/","open",457,"Linux-Stammtisch München",19508733,"Linux-Stammtisch-Munchen","Linux-Stammtischler",34
+"DE","public","München",1454781101000,"https://www.meetup.com/COOK-and-CODE-MUNCHEN/","open",886,"COOK and CODE - MÜNCHEN",19524528,"COOK-and-CODE-MUNCHEN","COOKING CODERS",34
+"DE","public","München",1456306392000,"https://www.meetup.com/TechMeMunich/","open",1392,"Artificial Intelligence & Chatbots by Technology Messenger",19618152,"TechMeMunich","Technology visionaries",34
+"DE","public","München",1457453911000,"https://www.meetup.com/FinTech-Meetup-Munchen/","open",1249,"FinTech Munich Meetup",19680499,"FinTech-Meetup-Munchen","Mitglieder",34
+"DE","public","München",1457712232000,"https://www.meetup.com/Synthetic-Biology-in-Munich/","open",490,"SynBio.Munich",19694168,"Synthetic-Biology-in-Munich","Synthetic Biologists",34
+"DE","public","München",1458649255000,"https://www.meetup.com/ARMUC-Augmented-Reality-Stammtisch-Munchen/","open",703,"#ARMUC - Augmented Reality Stammtisch München",19743388,"ARMUC-Augmented-Reality-Stammtisch-Munchen","Reality Enhancers",34
+"DE","public","München",1459882304000,"https://www.meetup.com/Data-Science-Munich/","open",454,"Data Science Munich",19804225,"Data-Science-Munich","Data Scientists",34
+"DE","public","München",1460221731000,"https://www.meetup.com/Data-Visualization-Meetup-Munich/","open",1687,"Data Visualization in Munich Meetup",19820062,"Data-Visualization-Meetup-Munich","Data Viz Enthusiasts",34
+"DE","public","München",1460377542000,"https://www.meetup.com/munichblockchain/","open",1573,"Blockchain Munich",19826973,"munichblockchain","members",34
+"DE","public","München",1460636373000,"https://www.meetup.com/LeadersInTechMunich/","approval",560,"Leaders in Tech : Munich",19839944,"LeadersInTechMunich","Leaders in Tech",34
+"DE","public","München",1462514436000,"https://www.meetup.com/pass-bayern/","open",527,"PASS Usergroup Bayern - Microsoft Data Platform Community",19921609,"pass-bayern","Data Monsters",34
+"DE","public","München",1463729812000,"https://www.meetup.com/Rooftop-Brains-BBQ-Munich/","open",655,"Rooftop Brains & BBQ",19974719,"Rooftop-Brains-BBQ-Munich","Members",34
+"DE","public","München",1466437777000,"https://www.meetup.com/munichacm/","open",1066,"Munich ACM",20094847,"munichacm","Innovators",34
+"DE","public","München",1469286504000,"https://www.meetup.com/Azure-Munich/","open",969,"Azure Munich Meetup",20215607,"Azure-Munich","Mitglieder",34
+"DE","public","München",1469524975000,"https://www.meetup.com/PyData-Munchen/","open",810,"PyData Munich",20225730,"PyData-Munchen","Members",34
+"DE","public","München",1471362725000,"https://www.meetup.com/Agile-Game-Night/","open",831,"Agile Game Nights",20321716,"Agile-Game-Night","Agile Gamer",34
+"DE","public","München",1471620670000,"https://www.meetup.com/startup-EUvolution-Munich/","open",732,"startup EUvolution Munich",20332072,"startup-EUvolution-Munich","entrepreneurs",34
+"DE","public","München",1473607978000,"https://www.meetup.com/Software-Architektur-Muenchen/","open",1244,"Software Architektur München",20413739,"Software-Architektur-Muenchen","Software-Gestalter",34
+"DE","public","München",1474581430000,"https://www.meetup.com/react-native-munich/","open",617,"React Native Munich",20456261,"react-native-munich","App Developers",34
+"DE","public","München",1474966175000,"https://www.meetup.com/Product-Owner-Munchen/","open",771,"Product Owner München",20482354,"Product-Owner-Munchen","Product Owner",34
+"DE","public","München",1474988113000,"https://www.meetup.com/Blockchain-Beer-Munchen/","open",631,"Blockchain & Beer München",20484387,"Blockchain-Beer-Munchen","Mitglieder",34
+"DE","public","München",1475441014000,"https://www.meetup.com/tum-csc/","open",1413,"TUM Computer Science Club",20569651,"tum-csc","CS Enthusiasts",34
+"DE","public","München",1475833603000,"https://www.meetup.com/Munich-Days-with-Data/","open",479,"Munich Days with Data",20636790,"Munich-Days-with-Data","Data Lovers",34
+"DE","public","München",1475866216000,"https://www.meetup.com/Kaggle-Munich/","open",814,"Kaggle Munich",20641450,"Kaggle-Munich","Members",34
+"DE","public","München",1476694957000,"https://www.meetup.com/Munchen-Artificial-Intelligence-Meetup/","open",550,"München Artificial Intelligence Meetup",20766949,"Munchen-Artificial-Intelligence-Meetup","Members",34
+"DE","public","München",1477048562000,"https://www.meetup.com/meetup-group-framerjs-munich/","open",502,"Prototyping with Framer Munich",20835698,"meetup-group-framerjs-munich","Frameristas",34
+"DE","public","München",1477409322000,"https://www.meetup.com/Hackathon-Munich/","open",556,"Hackathon Munich",20901297,"Hackathon-Munich","Members",34
+"DE","public","München",1478114937000,"https://www.meetup.com/Munich-Voice-Interfaces/","open",582,"Voice Interfaces - Munich",21016879,"Munich-Voice-Interfaces","Members",34
+"DE","public","München",1478266159000,"https://www.meetup.com/GDG-cloud-munich/","open",572,"GDG Cloud Munich",21038385,"GDG-cloud-munich","Mitglieder",34
+"DE","public","München",1478557022000,"https://www.meetup.com/Ministry-of-Testing-Munich/","open",403,"Ministry of Testing Munich",21079013,"Ministry-of-Testing-Munich","Members",34
+"DE","public","München",1480281306000,"https://www.meetup.com/Zuehlke-Munich/","open",453,"Zühlke Munich",21296490,"Zuehlke-Munich","Mitglieder",34
+"DE","public","München",1480715319000,"https://www.meetup.com/MunichUX/","approval",887,"UX & Product Munich",21366293,"MunichUX","MUXer",34
+"DE","public","München",1481027885000,"https://www.meetup.com/SmartData/","open",636,"Smart Data Munich",21490900,"SmartData","Members",34
+"DE","public","München",1481658206000,"https://www.meetup.com/CryptoInvestors-Munich/","open",1033,"CryptoInvestors Munich",21565792,"CryptoInvestors-Munich","Members",34
+"DE","public","München",1482497658000,"https://www.meetup.com/Sketch-Design-Munich/","open",814,"Sketch & Design - Munich",21665665,"Sketch-Design-Munich","Members",34
+"DE","public","München",1483300229000,"https://www.meetup.com/munich-design-sprint/","open",584,"Design Sprint Munich",21733865,"munich-design-sprint","Sprinters",34
+"DE","public","München",1484076315000,"https://www.meetup.com/AI-Autonomous-Driving-Munich/","open",1166,"Autonomous Driving",21832686,"AI-Autonomous-Driving-Munich","Driverless Car Drivers",34
+"DE","public","München",1484819603000,"https://www.meetup.com/big-data-automotive/","open",774,"Big Data in Automotive",21986050,"big-data-automotive","Members",34
+"DE","public","München",1484940763000,"https://www.meetup.com/ossmuc/","open",405,"Open Space Scrum Munich",22000580,"ossmuc","Bumblebees",34
+"DE","public","München",1486730746000,"https://www.meetup.com/Product-Leaks/","open",684,"Product Leaks",22319312,"Product-Leaks","Mitglieder",34
+"DE","public","München",1486746759000,"https://www.meetup.com/FitTech-Munich/","open",583,"FitTech Munich: Fitness meets Technology",22322525,"FitTech-Munich","Members",34
+"DE","public","München",1487870899000,"https://www.meetup.com/Hacking-Machine-Learning/","open",932,"Hacking Machine Learning",22589033,"Hacking-Machine-Learning","Members",34
+"DE","public","München",1490013022000,"https://www.meetup.com/Munich-Start-up-Breakfast/","open",491,"Munich Start-up Breakfast",22946683,"Munich-Start-up-Breakfast","Mitglieder",34
+"DE","public","München",1490683239000,"https://www.meetup.com/Munichs-robotics-meetup/","open",498,"Munichs robotics meetup",23035493,"Munichs-robotics-meetup","Members",34
+"DE","public","München",1490950571000,"https://www.meetup.com/what-is-ai/","open",1004,"WHAT IS ARTIFICIAL INTELLIGENCE?",23070076,"what-is-ai","Evangelists",34
+"DE","public","München",1491205628000,"https://www.meetup.com/Munich-Tech/","open",1521,"Munich Tech",23120315,"Munich-Tech","Members",34
+"DE","public","München",1492517096000,"https://www.meetup.com/Amazon-Appsters-Munich/","open",486,"Amazon Appsters - Munich",23327756,"Amazon-Appsters-Munich","Amazon Appsters",34
+"DE","public","München",1494333489000,"https://www.meetup.com/unleashed_sessions/","open",532,"Wayra Unleashed Session",23686747,"unleashed_sessions","transformers",34
+"DE","public","München",1495011789000,"https://www.meetup.com/Java-User-Group-Munchen-JUGM/","open",750,"Java User Group München (JUGM)",23819048,"Java-User-Group-Munchen-JUGM","Mitglieder",34
+"DE","public","München",1495619769000,"https://www.meetup.com/Munich-Applied-DL/","open",1108,"Munich Applied Deep Learning",23979333,"Munich-Applied-DL","Backpropagators",34
+"DE","public","München",1496146318000,"https://www.meetup.com/Data-Brain/","open",505,"Data Brain",24147730,"Data-Brain","members",34
+"DE","public","München",1496345950000,"https://www.meetup.com/data-engineering-munich/","open",413,"Munich Data Engineering Meetup",24208436,"data-engineering-munich","Mitglieder",34
+"DE","public","München",1498025673000,"https://www.meetup.com/Startup-Talents/","open",460,"Startup Talents",24581401,"Startup-Talents","Startup Talents",34
+"DE","public","München",1498559528000,"https://www.meetup.com/Microsoft-IoT-AI-Lab-Munich/","open",1625,"Microsoft IoT & AI Lab Munich",24703175,"Microsoft-IoT-AI-Lab-Munich","Mitglieder",34
+"DE","public","München",1500538938000,"https://www.meetup.com/Digital-Experience-behind-the-scenes/","open",431,"Digital Experience – behind the scenes",25057861,"Digital-Experience-behind-the-scenes","Digitale Macher",34
+"DE","public","Olching",1500556440000,"https://www.meetup.com/Big-Data-and-Machine-Learning-Munchen/","open",424,"Big Data and Machine Learning München",25059808,"Big-Data-and-Machine-Learning-Munchen","Mitglieder",34
+"DE","public","München",1500639004000,"https://www.meetup.com/Robot-Operating-System-ROS/","open",462,"Robot Operating System (ROS)",25072536,"Robot-Operating-System-ROS","Members",34
+"DE","public","München",1505892069000,"https://www.meetup.com/Tech-n-Drinks/","open",498,"Tech 'n' Drinks",25990563,"Tech-n-Drinks","Mitglieder",34
+"DE","public","München",1506095433000,"https://www.meetup.com/GitHub-Events-Munich/","open",544,"GitHub Events München",26014298,"GitHub-Events-Munich","Members",34
+"DE","public","München",1506849358000,"https://www.meetup.com/Practical-Machine-Learning-Deep-Learning-Course-Munich/","open",401,"Practical Machine Learning/Deep Learning Course Munich",26111997,"Practical-Machine-Learning-Deep-Learning-Course-Munich","Machine Learners",34
+"DE","public","München",1508150802000,"https://www.meetup.com/Javascript-Munich/","open",511,"Javascript Munich",26281892,"Javascript-Munich","Members",34
+"DE","public","München",1508179920000,"https://www.meetup.com/Munchen-Artificial-Intelligence-and-Deep-Learning/","open",610,"München Artificial Intelligence and Deep Learning",26286096,"Munchen-Artificial-Intelligence-and-Deep-Learning","Makers",34
+"DE","public","München",1508251656000,"https://www.meetup.com/Munchen-IoT-Meetup/","open",709,"München IoT Meetup",26294946,"Munchen-IoT-Meetup","Members",34
+"DE","public","München",1509222517000,"https://www.meetup.com/Blockchain-Tangle-Beyond-Munich/","open",406,"Blockchain, Tangle & Beyond - Munich",26419793,"Blockchain-Tangle-Beyond-Munich","Tanglers",34
+"DE","public","Hamburg",1288631618000,"https://www.meetup.com/hamburg-js/","open",1671,"HH.js",1731260,"hamburg-js","JavaScripters",34
+"DE","public","Hamburg",1315050498000,"https://www.meetup.com/awsugHH/","open",909,"Hamburg AWS User Group",2430772,"awsugHH","AWS-lers",34
+"DE","public","Hamburg",1321010660000,"https://www.meetup.com/Hamburg-Web-Performance-Group/","open",790,"Hamburg Web Performance Group",2794842,"Hamburg-Web-Performance-Group","Web Speeder",34
+"DE","public","Hamburg",1329745918000,"https://www.meetup.com/decode-hh/","open",931,"decode HH",3328722,"decode-hh","Mitglieder",34
+"DE","public","Hamburg",1335167706000,"https://www.meetup.com/sokahh/","open",807,"Softwerkskammer Hamburg",3723122,"sokahh","Software Crafter",34
+"DE","public","Hamburg",1336376321000,"https://www.meetup.com/phpughh/","open",988,"PHP-Usergroup Hamburg (PHPUGHH)",3814032,"phpughh","Mitglieder",34
+"DE","public","Hamburg",1346783036000,"https://www.meetup.com/Lean-Startup-Hamburg/","open",1389,"Lean Startup Hamburg",4770192,"Lean-Startup-Hamburg","Lean Startupper",34
+"DE","public","Hamburg",1346938143000,"https://www.meetup.com/BDNSHH/","open",1108,"Big Data & NoSQL Meetup Hamburg",4798602,"BDNSHH","Techies",34
+"DE","public","Hamburg",1349678647000,"https://www.meetup.com/Python-User-Group-Hamburg/","open",705,"Python User Group Hamburg",5288392,"Python-User-Group-Hamburg","Pythoneers and Pythonistas",34
+"DE","public","Hamburg",1350690358000,"https://www.meetup.com/DevOps-Hamburg/","open",714,"DevOps-Hamburg",5471182,"DevOps-Hamburg","Mitglieder",34
+"DE","public","Hamburg",1355782455000,"https://www.meetup.com/attraktor/","open",687,"Attraktor e.V. Hamburg",6276262,"attraktor","Tüftler, Bastler, Coder",34
+"DE","public","Hamburg",1365063854000,"https://www.meetup.com/opentechschool-hamburg/","open",1568,"OpenTechSchool Hamburg",7912752,"opentechschool-hamburg","Members",34
+"DE","public","Hamburg",1366110989000,"https://www.meetup.com/E-Commerce-Hacktable/","open",498,"E-Commerce Hacktable",8089312,"E-Commerce-Hacktable","E-Commerce Hacker",34
+"DE","public","Hamburg",1368620044000,"https://www.meetup.com/Go-User-Group-Hamburg/","open",572,"GDG Go & Cloud User Group Hamburg",8495892,"Go-User-Group-Hamburg","Gophers",34
+"DE","public","Hamburg",1369393365000,"https://www.meetup.com/Scala-Hamburg/","open",464,"Scala Hamburg",8623012,"Scala-Hamburg","Scala Enthusiasts",34
+"DE","public","Hamburg",1376935316000,"https://www.meetup.com/12minHH/","open",7227,"12min.me Hamburg",9878672,"12minHH","12minuters",34
+"DE","public","Hamburg",1386333088000,"https://www.meetup.com/Bitcoins-And-Emerging-Tech-That-Changes-The-World/","open",1347,"Bitcoin, Blockchain & Emerging Tech That Changes The World",11362402,"Bitcoins-And-Emerging-Tech-That-Changes-The-World","blocks",34
+"DE","public","Hamburg",1386702813000,"https://www.meetup.com/Hamburg-WordPress-Meetup/","open",663,"Hamburg WordPress Meetup",11412272,"Hamburg-WordPress-Meetup","WordPress Enthusiasts",34
+"DE","public","Hamburg",1387402147000,"https://www.meetup.com/jug-hamburg/","open",2611,"Java User Group Hamburg",11500362,"jug-hamburg","Mitglieder",34
+"DE","public","Hamburg",1389730308000,"https://www.meetup.com/Hamburg-Startup-Founder-101/","open",2479,"Hamburg Startup Founder 101",12117452,"Hamburg-Startup-Founder-101","Aspiring Founders",34
+"DE","public","Hamburg",1390990631000,"https://www.meetup.com/Google-Developer-Group-Hamburg/","open",1303,"Google Developer Group Hamburg",12567242,"Google-Developer-Group-Hamburg","Mitglieder",34
+"DE","public","Hamburg",1392145992000,"https://www.meetup.com/Hamburg-Data-Science-Meetup/","open",1170,"Hamburg Data Science Meetup",12833852,"Hamburg-Data-Science-Meetup","Data Scientists",34
+"DE","public","Hamburg",1395937060000,"https://www.meetup.com/Docker-Hamburg/","open",1039,"Docker Hamburg",13582282,"Docker-Hamburg","Dockers",34
+"DE","public","Hamburg",1396649412000,"https://www.meetup.com/Hamburg-C-Net-Meetup/","open",646,"Hamburg C# and .NET User Group Meetup",13732492,"Hamburg-C-Net-Meetup","C#er",34
+"DE","public","Hamburg",1403676510000,"https://www.meetup.com/webapi-hamburg/","open",406,"WebAPI Hamburg",15303822,"webapi-hamburg","Members",34
+"DE","public","Hamburg",1403785279000,"https://www.meetup.com/node-HH/","open",808,"node.HH - Node.js User Group",15329632,"node-HH","Noder",34
+"DE","public","Hamburg",1404433478000,"https://www.meetup.com/Hamburg-AngularJS-Meetup/","open",636,"Angular Meetup Hamburg",15481682,"Hamburg-AngularJS-Meetup","coders",34
+"DE","public","Hamburg",1404758770000,"https://www.meetup.com/Virtual-Reality-Hamburg/","approval",894,"Virtual Reality Hamburg",15555532,"Virtual-Reality-Hamburg","Mitglieder",34
+"DE","public","Hamburg",1405086660000,"https://www.meetup.com/Search-Technology-Meetup-Hamburg/","open",662,"Search Technology Meetup Hamburg",15642252,"Search-Technology-Meetup-Hamburg","Mitglieder",34
+"DE","public","Hamburg",1406048388000,"https://www.meetup.com/data-science-hh/","open",993,"Data Science Hamburg",15898082,"data-science-hh","Members",34
+"DE","public","Hamburg",1407326683000,"https://www.meetup.com/IoTHamburg/","open",1218,"Hamburg Internet of Things (IoT) User Group",16221512,"IoTHamburg","Enthusiasten",34
+"DE","public","Hamburg",1411194184000,"https://www.meetup.com/Hamburg-R-User-Group/","open",554,"Hamburg R User Group",17102372,"Hamburg-R-User-Group","R users",34
+"DE","public","Hamburg",1412614372000,"https://www.meetup.com/softwarearchitektur-hamburg/","open",1603,"Softwarearchitektur Hamburg",17437802,"softwarearchitektur-hamburg","Mitglieder",34
+"DE","public","Hamburg",1412841984000,"https://www.meetup.com/Big-Data-Hamburg/","open",1846,"Big Data, Hamburg",17503942,"Big-Data-Hamburg","Data Lovers, Hamburg",34
+"DE","public","Hamburg",1418074479000,"https://www.meetup.com/Artificial-Intelligence-Meetup/","open",618,"Artificial Intelligence Meetup",18240935,"Artificial-Intelligence-Meetup","Researchers",34
+"DE","public","Hamburg",1418212799000,"https://www.meetup.com/Microservices-Meetup-Hamburg/","open",881,"Microservices Meetup Hamburg",18244441,"Microservices-Meetup-Hamburg","Mitglieder",34
+"DE","public","Hamburg",1420717409000,"https://www.meetup.com/CodeforHamburg/","open",1289,"Code for Hamburg",18312826,"CodeforHamburg","Civic Hackers",34
+"DE","public","Hamburg",1423578304000,"https://www.meetup.com/Swift-Meetup-Hamburg/","open",417,"Swift Meetup Hamburg",18425184,"Swift-Meetup-Hamburg","Swift Developers",34
+"DE","public","Hamburg",1423836266000,"https://www.meetup.com/Breaking-Agile/","open",1056,"Breaking Agile",18432461,"Breaking-Agile","Agile Junkies",34
+"DE","public","Hamburg",1424858237000,"https://www.meetup.com/ThoughtWorks-Hamburg/","open",3089,"ThoughtWorks Hamburg",18459987,"ThoughtWorks-Hamburg","Mitglieder",34
+"DE","public","Hamburg",1425557553000,"https://www.meetup.com/Eurostaff-Connect-s-Hamburg-Developer-Group/","open",991,"Eurostaff Connect(s) - Hamburg Developer Group",18479211,"Eurostaff-Connect-s-Hamburg-Developer-Group","Eurostaffers",34
+"DE","public","Hamburg",1430126147000,"https://www.meetup.com/Hamburg-UI-Design-Meetup/","open",879,"Shapes — Hamburg UI Design Meetup",18565427,"Hamburg-UI-Design-Meetup","Designers",34
+"DE","public","Hamburg",1430913840000,"https://www.meetup.com/Design-Thinking-Meetup-Hamburg/","approval",1014,"Design Thinking Meetup Hamburg",18578767,"Design-Thinking-Meetup-Hamburg","Design Thinkers",34
+"DE","public","Hamburg",1431322140000,"https://www.meetup.com/CppUserGroupHamburg/","open",452,"C++ User Group Hamburg",18588818,"CppUserGroupHamburg","Coders",34
+"DE","public","Hamburg",1432050288000,"https://www.meetup.com/Hamburg-React-js-Meetup/","open",991,"Hamburg React.js Meetup",18609429,"Hamburg-React-js-Meetup","declarative renderers",34
+"DE","public","Hamburg",1435582772000,"https://www.meetup.com/digitaldojo/","open",472,"Digital Dojo Hamburg",18706541,"digitaldojo","Digital Natives",34
+"DE","public","Hamburg",1441457442000,"https://www.meetup.com/Reactive-Systems-Hamburg/","open",507,"Reactive Systems Hamburg",18901463,"Reactive-Systems-Hamburg","Member",34
+"DE","public","Hamburg",1445435825000,"https://www.meetup.com/Innovationsforum-Hamburg/","open",955,"Innovationsforum Hamburg",19047926,"Innovationsforum-Hamburg","Innovators",34
+"DE","public","Hamburg",1445623533000,"https://www.meetup.com/Hamburg-Kubernetes-Meetup/","open",669,"Hamburg Kubernetes/Cloud-Native Meetup",19054554,"Hamburg-Kubernetes-Meetup","Kubernauts",34
+"DE","public","Hamburg",1449483050000,"https://www.meetup.com/Hamburg-Unity-Meetup/","open",524,"Hamburg Unity Meetup",19189830,"Hamburg-Unity-Meetup","Member",34
+"DE","public","Hamburg",1451996390000,"https://www.meetup.com/womentechmakershamburg/","open",1919,"Women Techmakers Hamburg",19281976,"womentechmakershamburg","Women Techmakers",34
+"DE","public","Hamburg",1452337976000,"https://www.meetup.com/SEO-HH/","open",989,"SEO HH",19307713,"SEO-HH","SEO HH'ler",34
+"DE","public","Hamburg",1455089547000,"https://www.meetup.com/Agile-meets-HR/","open",631,"Agile meets HR",19548700,"Agile-meets-HR","Mitglieder",34
+"DE","public","Hamburg",1456935374000,"https://www.meetup.com/Produktreiferei/","open",433,"Produktreiferei",19652666,"Produktreiferei","Produktreifer",34
+"DE","public","Hamburg",1458057782000,"https://www.meetup.com/Smart-Datalytics/","open",956,"Smart Datalytics",19712961,"Smart-Datalytics","Datalytics",34
+"DE","public","Hamburg",1459031790000,"https://www.meetup.com/DDD-HH-Domain-driven-Design-Hamburg/","open",473,"DDD-HH Domain-driven Design Hamburg",19761370,"DDD-HH-Domain-driven-Design-Hamburg","Modelers",34
+"DE","public","Hamburg",1459935784000,"https://www.meetup.com/Zalando-Tech-Events-Hamburg/","open",507,"Zalando Tech Events Hamburg",19806903,"Zalando-Tech-Events-Hamburg","Zalandos",34
+"DE","public","Hamburg",1463496491000,"https://www.meetup.com/Bots-Hamburg-Meetup/","open",811,"Bots Hamburg Meetup",19963890,"Bots-Hamburg-Meetup","Mitglieder",34
+"DE","public","Hamburg",1472474470000,"https://www.meetup.com/Serverless-Hamburg/","open",606,"Serverless Hamburg",20365656,"Serverless-Hamburg","Members",34
+"DE","public","Hamburg",1473940568000,"https://www.meetup.com/Blockchain-Beer/","open",688,"Blockchain & Beer Hamburg",20428400,"Blockchain-Beer","Mitglieder",34
+"DE","public","Hamburg",1476791939000,"https://www.meetup.com/Azure-Meetup-Hamburg/","open",618,"Azure Meetup Hamburg",20784186,"Azure-Meetup-Hamburg","Mitglieder",34
+"DE","public","Hamburg",1484754123000,"https://www.meetup.com/Blue-Hackers-Club/","open",504,"Blue Hackers Club",21978080,"Blue-Hackers-Club","Blue Hackers members",34
+"DE","public","Hamburg",1485264385000,"https://www.meetup.com/GI-ACM-HH/","open",476,"Regionalgruppe Hamburg der GI/GACM",22059876,"GI-ACM-HH","Mitglieder",34
+"DE","public","Hamburg",1495080053000,"https://www.meetup.com/Startup-Grind-Hamburg/","open",698,"Startup Grind Hamburg",23835182,"Startup-Grind-Hamburg","Entrepreneurs",34
+"DE","public","Hamburg",1498206266000,"https://www.meetup.com/Hamburg-Education-Technology-Meetup/","open",511,"Hamburg Education and Technology Meetup",24611501,"Hamburg-Education-Technology-Meetup","Members",34
+"DE","public","Hamburg",1499340450000,"https://www.meetup.com/True-Tech-Talks/","open",450,"True Tech Talks",24856488,"True-Tech-Talks","Mitglieder",34
+"DE","public","Hamburg",1510614855000,"https://www.meetup.com/meetupai/","open",537,"meetup.ai",26590346,"meetupai","Members",34
+"DK","public","Copenhagen",1165961307000,"https://www.meetup.com/copenhagenphp/","open",686,"The Copenhagen PHP Meetup Group",382528,"copenhagenphp","PHP Developers",34
+"SE","public","Malmö",1316008928000,"https://www.meetup.com/Malmo-Startups/","open",1227,"Malmö Startups",2484122,"Malmo-Startups","Members",34
+"DK","public","Copenhagen",1321960450000,"https://www.meetup.com/Hackers-Founders-Designers-Copenhagen/","open",444,"Hackers & Founders + Designers Copenhagen",2850652,"Hackers-Founders-Designers-Copenhagen","Strangers",34
+"DK","public","Copenhagen",1340384967000,"https://www.meetup.com/The-Copenhagen-Django-Meetup-Group/","open",462,"The Copenhagen Django Meetup Group",4144512,"The-Copenhagen-Django-Meetup-Group","Hackers",34
+"DK","public","Copenhagen",1358153008000,"https://www.meetup.com/AgilityLab/","open",2053,"#AgilityLab Copenhagen",6648422,"AgilityLab","Members",34
+"DK","public","Copenhagen",1358586569000,"https://www.meetup.com/WordPress-Copenhagen/","open",1264,"WordPress Copenhagen",6733162,"WordPress-Copenhagen","WordPress enthusiasts",34
+"DK","public","Copenhagen",1367523603000,"https://www.meetup.com/Hacks-Hackers-DK/","open",863,"Hacks/Hackers Danmark",8320052,"Hacks-Hackers-DK","Hacks og Hackers",34
+"DK","public","Copenhagen",1371454595000,"https://www.meetup.com/cph-node/","open",736,"Copenhagen Node.js",8959582,"cph-node","Hackers",34
+"DK","public","Copenhagen",1378228853000,"https://www.meetup.com/CopenhagenR-useR-Group/","open",1025,"CopenhagenR - useR Group",10092532,"CopenhagenR-useR-Group","useRs",34
+"DK","public","Copenhagen",1378814008000,"https://www.meetup.com/MoedegruppeFunktionelleKoebenhavnere/","open",883,"Mødegruppe for F#unktionelle Københavnere",10193032,"MoedegruppeFunktionelleKoebenhavnere","MF#K",34
+"DK","public","Copenhagen",1381488921000,"https://www.meetup.com/datacph/","open",2465,"Data Science and Machine Learning in Copenhagen",10645042,"datacph","Members",34
+"DK","public","Copenhagen",1381777819000,"https://www.meetup.com/Copenhagen-Domain-Driven-Design-Meetup/","open",469,"Copenhagen Domain Driven Design Meetup",10688662,"Copenhagen-Domain-Driven-Design-Meetup","DDDers",34
+"DK","public","Copenhagen",1381944902000,"https://www.meetup.com/CopenhagenCocoa/","open",805,"Copenhagen Cocoa",10716062,"CopenhagenCocoa","coders",34
+"DK","public","Copenhagen",1389281185000,"https://www.meetup.com/Azure-Usergroup-Denmark/","open",1211,"Azure Usergroup Denmark (Copenhagen)",11964712,"Azure-Usergroup-Denmark","AZUGers",34
+"DK","public","Copenhagen",1391276031000,"https://www.meetup.com/Design-Thinking-Copenhagen/","open",625,"Design Thinking Copenhagen",12664062,"Design-Thinking-Copenhagen","Designers",34
+"DK","public","Copenhagen",1391375993000,"https://www.meetup.com/TestLab/","open",428,"TestLab Copenhagen",12681602,"TestLab","Members",34
+"DK","public","Copenhagen",1391501635000,"https://www.meetup.com/code-u/","open",533,"Continuous Delivery Users - CoDe:U",12710132,"code-u","CoDe:Users",34
+"DK","public","Copenhagen",1392890807000,"https://www.meetup.com/GOTO-Nights-CPH/","open",3274,"GOTO Nights CPH",12977902,"GOTO-Nights-CPH","Members",34
+"DK","public","Copenhagen",1396295947000,"https://www.meetup.com/Copenhagen-Net-User-Group/","open",2671,"Copenhagen .Net User Group",13654802,"Copenhagen-Net-User-Group","DotNetters",34
+"DK","public","Copenhagen",1396635179000,"https://www.meetup.com/Copenhagen-Graph-Databases-Meetup/","open",585,"Copenhagen Graph Databases Meetup",13728842,"Copenhagen-Graph-Databases-Meetup","Graphistas",34
+"DK","public","Copenhagen",1398750924000,"https://www.meetup.com/Professional-Scrum-with-Lean-Coffee/","open",615,"Professional Scrum with Lean Coffee",14169382,"Professional-Scrum-with-Lean-Coffee","Professionals",34
+"DK","public","Copenhagen",1399210986000,"https://www.meetup.com/Copenhagen-Elastic-Fantastics/","open",420,"Elastic - Copenhagen",14258672,"Copenhagen-Elastic-Fantastics","Elastic Fantastics",34
+"DK","public","Copenhagen",1407174948000,"https://www.meetup.com/Docker-Copenhagen/","open",1340,"Docker Copenhagen",16187002,"Docker-Copenhagen","Dockers",34
+"DK","public","Copenhagen",1408526215000,"https://www.meetup.com/copenhagen-tech-events/","open",425,"IMUS events - cool free tech events",16504282,"copenhagen-tech-events","Members",34
+"DK","public","Copenhagen",1409075426000,"https://www.meetup.com/Big-Data-Denmark/","open",1560,"Big Data Denmark",16615762,"Big-Data-Denmark","Data Enthusiasts",34
+"DK","public","Copenhagen",1409166463000,"https://www.meetup.com/Copenhagen-Tech-Polyglots/","open",479,"Copenhagen Tech Polyglot Meetup",16637442,"Copenhagen-Tech-Polyglots","Polyglot coders",34
+"DK","public","Copenhagen",1413878777000,"https://www.meetup.com/Copenhagen-AWS-User-Group/","open",535,"Copenhagen AWS User Group",17762672,"Copenhagen-AWS-User-Group","Members",34
+"DK","public","Copenhagen",1416840396000,"https://www.meetup.com/build-business-networking-copenhagen/","open",666,"B.U.I.L.D business networking and more Copenhagen",18211483,"build-business-networking-copenhagen","Business B.U.I.L.Ders",34
+"DK","public","Copenhagen",1417526404000,"https://www.meetup.com/CopenhagenXR/","open",806,"Copenhagen XR",18227298,"CopenhagenXR","XR Enthusiasts",34
+"DK","public","Copenhagen",1418211839000,"https://www.meetup.com/UX-UI-Design-Copenhagen/","open",1317,"UX/UI Design Meetup Copenhagen",18244421,"UX-UI-Design-Copenhagen","Designers",34
+"DK","public","Copenhagen",1420894484000,"https://www.meetup.com/Copenhagen-Legal-Hackers/","open",436,"Copenhagen Legal Hackers",18319141,"Copenhagen-Legal-Hackers","Legal Hackers",34
+"SE","public","Malmö",1422266587000,"https://www.meetup.com/iotmalmo/","open",854,"Internet of Things Malmö",18380235,"iotmalmo","Members",34
+"DK","public","Copenhagen",1422555836000,"https://www.meetup.com/DevOps-Copenhagen/","open",718,"DevOps - Copenhagen",18392967,"DevOps-Copenhagen","DevOps",34
+"DK","public","Copenhagen",1424091143000,"https://www.meetup.com/Copenhagen-React-Meetup/","open",433,"Copenhagen React Meetup",18438354,"Copenhagen-React-Meetup","Reacters",34
+"DK","public","Copenhagen",1427631779000,"https://www.meetup.com/cphfront/","open",1463,"Copenhagen Frontenders",18524571,"cphfront","Frontenders",34
+"DK","public","Copenhagen",1435076124000,"https://www.meetup.com/Copenhagen-Ethereum-Meetup/","open",760,"Copenhagen Ethereum Meetup",18693485,"Copenhagen-Ethereum-Meetup","Eth Heads",34
+"DK","public","Copenhagen",1444227596000,"https://www.meetup.com/ngCopenhagen/","open",938,"ngCopenhagen",19004761,"ngCopenhagen","ng-developers",34
+"DK","public","Copenhagen",1445952093000,"https://www.meetup.com/cphgdpr/","open",652,"General Data Protection Regulation (GDPR)",19065856,"cphgdpr","GDPRs",34
+"DK","public","Copenhagen",1446196802000,"https://www.meetup.com/SCUGDK/","open",445,"System Center User Group Denmark (SCUG.DK)",19074393,"SCUGDK","Members",34
+"DK","public","Copenhagen",1447175306000,"https://www.meetup.com/nordicaicph/","open",846,"Nordic.ai Copenhagen Chapter",19108850,"nordicaicph","cyborgs",34
+"DK","public","Copenhagen",1448286176000,"https://www.meetup.com/GDG-Copenhagen/","open",617,"GDG Copenhagen",19147728,"GDG-Copenhagen","GDG CPH members",34
+"DK","public","Copenhagen",1452712352000,"https://www.meetup.com/copenhagen-startup-founder-101/","open",1689,"Copenhagen Startup Founder 101",19333899,"copenhagen-startup-founder-101","Aspiring Founders",34
+"DK","public","Copenhagen",1452778758000,"https://www.meetup.com/Le-Wagon-Copenhagen-Coding-Station/","open",843,"Le Wagon Copenhagen - Coding Station",19337985,"Le-Wagon-Copenhagen-Coding-Station","Wagoneers",34
+"DK","public","Copenhagen",1455826546000,"https://www.meetup.com/PyData-Copenhagen/","open",500,"PyData Copenhagen",19590435,"PyData-Copenhagen","Members",34
+"DK","public","Copenhagen",1456386257000,"https://www.meetup.com/Copenhagen-Ruby-Brigade/","open",436,"Copenhagen Ruby Brigade",19622979,"Copenhagen-Ruby-Brigade","Rubyists",34
+"DK","public","Copenhagen",1457358223000,"https://www.meetup.com/CDUGDK/","open",452,"Cloud & Data Center User Group Denmark",19674705,"CDUGDK","Members",34
+"DK","public","Copenhagen",1462340695000,"https://www.meetup.com/React-Native-CPH/","open",603,"React Native CPH",19914310,"React-Native-CPH","Members",34
+"DK","public","Copenhagen",1463953447000,"https://www.meetup.com/copenhagen-python/","open",402,"Copenhagen Python Meetup",19983534,"copenhagen-python","Members",34
+"DK","public","Copenhagen",1467392664000,"https://www.meetup.com/Copenhagen-Creative-Studio/","open",888,"CPH Creative Studio",20135480,"Copenhagen-Creative-Studio","Creative Ninjas",34
+"DK","public","Copenhagen",1470657969000,"https://www.meetup.com/Design-Matters/","open",508,"Design Matters",20292350,"Design-Matters","Members",34
+"DK","public","Copenhagen",1471427831000,"https://www.meetup.com/copenhagenjs/","open",1439,"CopenhagenJS",20324461,"copenhagenjs","Javascripters",34
+"DK","public","Copenhagen",1473410470000,"https://www.meetup.com/Copenhagen-IOTPEOPLE-Meetup/","open",552,"Copenhagen IOTPEOPLE Meetup",20405673,"Copenhagen-IOTPEOPLE-Meetup","Members",34
+"DK","public","Copenhagen",1473421757000,"https://www.meetup.com/Radiate/","open",573,"Radiate",20406367,"Radiate","Radiators",34
+"DK","public","Copenhagen",1476252762000,"https://www.meetup.com/LTUX-CPH/","open",670,"Ladies that UX - Cph",20695320,"LTUX-CPH","UX ladies",34
+"DK","public","Copenhagen",1478022576000,"https://www.meetup.com/Natural-Language-Processing-Copenhagen-Meetup/","open",658,"Natural Language Processing Copenhagen Meetup",20995079,"Natural-Language-Processing-Copenhagen-Meetup","NLPers",34
+"DK","public","Copenhagen",1480006822000,"https://www.meetup.com/Big-Data-Copenhagen/","open",722,"Big Data, Copenhagen",21271053,"Big-Data-Copenhagen","Members",34
+"SE","public","Malmö",1481882803000,"https://www.meetup.com/Critical-Tech/","open",412,"Critical Tech",21596714,"Critical-Tech","Members",34
+"DK","public","Copenhagen",1486375633000,"https://www.meetup.com/Copenhagen-Health-Techers/","open",462,"Copenhagen Health Techers",22255836,"Copenhagen-Health-Techers","Health Techer",34
+"DK","public","Copenhagen",1486743974000,"https://www.meetup.com/Big-Data-Developers-in-Copenhagen/","open",634,"Big Data Developers in Copenhagen",22322122,"Big-Data-Developers-in-Copenhagen","Members",34
+"DK","public","Copenhagen",1488499880000,"https://www.meetup.com/meetup-group-xJLtjnlG/","open",420,"Women Techmakers Copenhagen",22738429,"meetup-group-xJLtjnlG","Mitglieder",34
+"DK","public","Copenhagen",1500467090000,"https://www.meetup.com/IoT-WS-Copenhagen/","open",515,"Internet of Things Workshops Series Copenhagen",25047458,"IoT-WS-Copenhagen","IoT Developers",34
+"DK","public","Copenhagen",1504378434000,"https://www.meetup.com/Self-employed-Creatives/","open",510,"Self-employed Creatives",25741345,"Self-employed-Creatives","Creative Warriors",34
+"DK","public","Copenhagen",1509944772000,"https://www.meetup.com/Future-of-data/","open",425,"Future of data",26509748,"Future-of-data","Members",34
