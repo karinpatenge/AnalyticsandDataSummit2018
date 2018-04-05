@@ -6,7 +6,7 @@ Last change (comitted as of Apr 5, 2018):
 Adapt R code in meetup_convert_data_v2.Rmd to replace "." in property names by "_".
 
 ## Nodes and Edges sample data
-Nodes and Edges data are contained in the 2 files meetup.opv and meetup.ope. They contain data Meetup.com data for the cities of Berlin, Munich, Hamburg and Copenhagen.
+Nodes and Edges data are contained in the 2 files meetup.opv and meetup.ope. They contain Meetup.com data for the cities of Berlin, Munich, Hamburg and Copenhagen.
 The format is according to the Oracle Flat File Format for Property Graphs (See also: https://docs.oracle.com/bigdata/bda411/BDSPA/using-property-graphs-big-data.htm#BDSPA255)
 
 
