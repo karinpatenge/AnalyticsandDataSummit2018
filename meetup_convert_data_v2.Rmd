@@ -4,6 +4,7 @@ author: "Karin Patenge, Oracle Deutschland B.V. & Co. KG"
 date: "3/14/2018"
 output: html_notebook
 ---
+## Last updated: Apr 05,2018
 
 ## Acknowledgment
 The R code below contains snippets from the following resources:  
@@ -45,20 +46,6 @@ library('tidyr')
   
 ### Helper functions
 ```{r echo=TRUE}
-## Replace unwanted chars in column names
-rename_fields <- function(df, df.name = NA){
-  if(!is.na(df.name)){
-    names(df) %>%
-    tolower %>%
-    str_replace_all("_", ".") %>%
-    paste(df.name, ., sep=".")
-  } else {
-    names(df) %>%
-    tolower %>%
-    str_replace_all("_", ".")
-  }
-}
-
 ## Encoding of special characters (Documentation chapter 5.13.4 Encoding Special Characters)
 replace_special_chars <- function(col){
   str_replace_all(col,c("%"="%25"," "="%20",","="%2C","\t"="%09","\n"="%0A","\r"="%0D"))
@@ -165,8 +152,8 @@ cities <-
     col_names = names(meetup_cities_subset),
     skip=1)
 
-## Replace column names
-names(cities) <- rename_fields(cities)
+## Check data
+str(cities)
 
 ## Add column with sequence number to be used as VID (node identifier)
 seq_offset <- nrow(cities)
@@ -174,9 +161,6 @@ seq_start <- seq_last
 seq_end <- seq_start + seq_offset - 1
 cities$VID <- c(seq.int(from=seq_start,to=seq_end,by=1))
 seq_last <- seq_end + 1
-
-## Check data
-str(cities)
 
 ## Reshape the data (leaving out original Meetup IDs), pushing columns into rows for the various types of information to store about each node and edge.
 
@@ -194,11 +178,11 @@ nodes.cities.type
 nodes.cities.city <- 
   cities %>% 
   select(VID) %>% 
-	mutate(key='city.name') %>% 
-	mutate(datatype=str_dt) %>% 
-	bind_cols(select(cities,c(city))) %>% rename(strval='city') %>% 
-	mutate(numval=NA) %>% 
-	mutate(datval=NA)
+  mutate(key='city_name') %>% 
+  mutate(datatype=str_dt) %>% 
+  bind_cols(select(cities,c(city))) %>% rename(strval='city') %>% 
+  mutate(numval=NA) %>% 
+  mutate(datval=NA)
 ## Remove empty values
 nodes.cities.city <- nodes.cities.city[!is.na(nodes.cities.city$strval),]
 nodes.cities.city
@@ -206,7 +190,7 @@ nodes.cities.city
 nodes.cities.country <- 
   cities %>% 
   select(VID) %>% 
-  mutate(key='city.country') %>% 
+  mutate(key='city_country') %>% 
   mutate(datatype=str_dt) %>% 
   bind_cols(select(cities,c(country))) %>% rename(strval='country') %>% 
   mutate(numval=NA) %>% 
@@ -218,7 +202,7 @@ nodes.cities.country
 nodes.cities.lon <- 
   cities %>% 
   select(VID) %>% 
-  mutate(key='city.lon') %>% 
+  mutate(key='city_lon') %>% 
   mutate(datatype=dbl_dt) %>% 
   mutate(strval=NA) %>% 
   bind_cols(select(cities,c(lon))) %>% rename(numval='lon') %>% 
@@ -231,7 +215,7 @@ nodes.cities.lon
 nodes.cities.lat <- 
   cities %>% 
   select(VID) %>% 
-  mutate(key='city.lat') %>% 
+  mutate(key='city_lat') %>% 
   mutate(datatype=dbl_dt) %>% 
   mutate(strval=NA) %>% 
   bind_cols(select(cities,c(lat))) %>% rename(numval='lat') %>% 
@@ -244,7 +228,7 @@ nodes.cities.lat
 nodes.cities.ranking <- 
   cities %>% 
   select(VID) %>% 
-  mutate(key='city.ranking') %>% 
+  mutate(key='city_ranking') %>% 
   mutate(datatype=int_dt) %>% 
   mutate(strval=NA) %>% 
   bind_cols(select(cities,c(ranking))) %>% rename(numval='ranking') %>% 
@@ -257,10 +241,10 @@ nodes.cities.ranking
 nodes.cities.member.count <- 
   cities %>% 
   select(VID) %>% 
-  mutate(key='city.member.count') %>% 
+  mutate(key='city_member_count') %>% 
   mutate(datatype=int_dt) %>% 
   mutate(strval=NA) %>% 
-  bind_cols(select(cities,c(member.count))) %>% rename(numval='member.count') %>% 
+  bind_cols(select(cities,c(member_count))) %>% rename(numval='member_count') %>% 
   mutate(datval=NA)
 ## Remove empty values
 nodes.cities.member.count <- nodes.cities.member.count[!is.na(nodes.cities.member.count$numval),]
@@ -271,13 +255,13 @@ nodes.cities.member.count
 nodes.cities <-
   bind_rows(
     nodes.cities.type,
-		nodes.cities.city,
-		nodes.cities.country,
-		nodes.cities.lon,
-		nodes.cities.lat,
-		nodes.cities.ranking,
-		nodes.cities.member.count)
-  
+    nodes.cities.city,
+    nodes.cities.country,
+    nodes.cities.lon,
+    nodes.cities.lat,
+    nodes.cities.ranking,
+    nodes.cities.member.count)
+
 ## Eliminate duplicates (just to be safe)
 nodes.cities <- unique(nodes.cities)
 
@@ -287,6 +271,8 @@ View(nodes.cities)
 ##   Create a dataframe containing all edges
 
 ## No (outgoing) edges for cities
+
+Sys.sleep(10)
 ```
   
 #### 2. CATEGORIES
@@ -324,7 +310,9 @@ names(meetup_categories)
 nrow(meetup_categories)
 dim(meetup_categories)
 head(meetup_categories)
+```
 
+```{r echo=TRUE}
 # Export data into .csv (without observation number)
 file_name_base = "categories"
 file_name = paste("../data/",file_name_base,".csv",sep = "")
@@ -338,8 +326,8 @@ categories <-
     col_names = names(meetup_categories),
     skip=1)
 
-## Replace column names
-names(categories) <- rename_fields(categories)
+## Check data
+str(categories)
 
 ## Add column with sequence number to be used as VID (node identifier)
 seq_offset <- nrow(categories)
@@ -348,9 +336,6 @@ seq_end <- seq_start + seq_offset - 1
 categories$VID <- c(seq.int(from=seq_start,to=seq_end,by=1))
 seq_last <- seq_end + 1
 
-## Check data
-str(categories)
-
 ## Reshape the data (leaving out original Meetup IDs), pushing columns into rows for the various types of information to store about each node and edge.
 
 ## Nodes:
@@ -358,21 +343,21 @@ str(categories)
 nodes.categories.type <- 
   categories %>% 
   select(VID) %>% 
-	mutate(key='type') %>% 
-	mutate(datatype=str_dt) %>% 
-	mutate(strval = 'Category') %>% 
-	mutate(numval=NA) %>% 
-	mutate(datval=NA)
+  mutate(key='type') %>% 
+  mutate(datatype=str_dt) %>% 
+  mutate(strval = 'Category') %>% 
+  mutate(numval=NA) %>% 
+  mutate(datval=NA)
 nodes.categories.type
 
 nodes.categories.name <- 
   categories %>% 
   select(VID) %>% 
-	mutate(key='category.name') %>% 
-	mutate(datatype=str_dt) %>% 
-	bind_cols(select(categories,c(name))) %>% rename(strval='name') %>% 
-	mutate(numval=NA) %>% 
-	mutate(datval=NA)
+  mutate(key='category_name') %>% 
+  mutate(datatype=str_dt) %>% 
+  bind_cols(select(categories,c(name))) %>% rename(strval='name') %>% 
+  mutate(numval=NA) %>% 
+  mutate(datval=NA)
 ## Remove empty values
 nodes.categories.name <- nodes.categories.name[!is.na(nodes.categories.name$strval),]
 nodes.categories.name
@@ -380,11 +365,11 @@ nodes.categories.name
 nodes.categories.shortname <- 
   categories %>% 
   select(VID) %>% 
-	mutate(key='category.shortname') %>% 
-	mutate(datatype=str_dt) %>% 
-	bind_cols(select(categories,c(shortname))) %>% rename(strval='shortname') %>% 
-	mutate(numval=NA) %>% 
-	mutate(datval=NA)
+  mutate(key='category_shortname') %>% 
+  mutate(datatype=str_dt) %>% 
+  bind_cols(select(categories,c(shortname))) %>% rename(strval='shortname') %>% 
+  mutate(numval=NA) %>% 
+  mutate(datval=NA)
 ## Remove empty values
 nodes.categories.shortname <- nodes.categories.shortname[!is.na(nodes.categories.shortname$strval),]
 nodes.categories.shortname
@@ -395,7 +380,7 @@ nodes.categories <-
     nodes.categories.type,
     nodes.categories.name,
     nodes.categories.shortname)
-  
+
 ## Eliminate duplicates (just to be safe)
 nodes.categories <- unique(nodes.categories)
 
@@ -405,6 +390,8 @@ View(nodes.categories)
 ##   Create a dataframe containing all edges
 
 ## No (outgoing) edges for categories
+
+Sys.sleep(10)
 ```
   
 #### 3. GROUPS
@@ -461,11 +448,11 @@ groups <-
     col_names = names(meetup_groups_subset),
     skip=1)
 
-## Replace column names
-names(groups) <- rename_fields(groups)
-
 ## Convert creation date from EpochTimeInMillies to Date
 groups$created <- paste0(anydate((groups$created)/1000),'T00:00:00.000+01:00')
+
+## Check data
+str(groups)
 
 ## Add column with sequence number to be used as VID (node identifier)
 seq_offset <- nrow(groups)
@@ -473,7 +460,6 @@ seq_start <- seq_last
 seq_end <- seq_start + seq_offset - 1
 groups$VID <- c(seq.int(from=seq_start,to=seq_end,by=1))
 seq_last <- seq_end + 1
-str(groups)
 
 ## Reshape the data (leaving out original Meetup IDs), pushing columns into rows for the various types of information to store about each node and edge.
 
@@ -492,7 +478,7 @@ nodes.groups.type
 nodes.groups.visibility <- 
   groups %>% 
   select(VID) %>% 
-  mutate(key='group.visibility') %>% 
+  mutate(key='group_visibility') %>% 
   mutate(datatype=str_dt) %>% 
   bind_cols(select(groups,c(visibility))) %>% rename(strval='visibility') %>% 
   mutate(numval=NA) %>% 
@@ -504,7 +490,7 @@ nodes.groups.visibility
 nodes.groups.country <- 
   groups %>% 
   select(VID) %>% 
-  mutate(key='group.country') %>% 
+  mutate(key='group_country') %>% 
   mutate(datatype=str_dt) %>% 
   bind_cols(select(groups,c(country))) %>% rename(strval='country') %>% 
   mutate(numval=NA) %>% 
@@ -516,7 +502,7 @@ nodes.groups.country
 nodes.groups.created <- 
   groups %>% 
   select(VID) %>% 
-  mutate(key='group.created') %>% 
+  mutate(key='group_created') %>% 
   mutate(datatype=date_dt) %>% 
   mutate(strval=NA) %>% 
   mutate(numval=NA) %>% 
@@ -528,7 +514,7 @@ nodes.groups.created
 nodes.groups.members <- 
   groups %>% 
   select(VID) %>% 
-  mutate(key='group.members') %>% 
+  mutate(key='group_members') %>% 
   mutate(datatype=int_dt) %>% 
   mutate(strval=NA) %>% 
   bind_cols(select(groups,c(members))) %>% rename(numval='members') %>% 
@@ -541,7 +527,7 @@ nodes.groups.members
 nodes.groups.link <- 
   groups %>% 
   select(VID) %>% 
-  mutate(key='group.link') %>% 
+  mutate(key='group_link') %>% 
   mutate(datatype=str_dt) %>% 
   bind_cols(select(groups,c(link))) %>% rename(strval='link') %>% 
   mutate(numval=NA) %>% 
@@ -553,9 +539,9 @@ nodes.groups.link
 nodes.groups.join.mode <- 
   groups %>% 
   select(VID) %>% 
-  mutate(key='group.join.mode') %>% 
+  mutate(key='group_join_mode') %>% 
   mutate(datatype=str_dt) %>% 
-  bind_cols(select(groups,c(join.mode))) %>% rename(strval='join.mode') %>% 
+  bind_cols(select(groups,c(join_mode))) %>% rename(strval='join_mode') %>% 
   mutate(numval=NA) %>% 
   mutate(datval=NA)
 ## Remove empty values
@@ -565,7 +551,7 @@ nodes.groups.join.mode
 nodes.groups.name <- 
   groups %>% 
   select(VID) %>% 
-  mutate(key='group.name') %>% 
+  mutate(key='group_name') %>% 
   mutate(datatype=str_dt) %>% 
   bind_cols(select(groups,c(name))) %>% rename(strval='name') %>% 
   mutate(numval=NA) %>% 
@@ -577,7 +563,7 @@ nodes.groups.name
 nodes.groups.urlname <- 
   groups %>% 
   select(VID) %>% 
-  mutate(key='group.urlname') %>% 
+  mutate(key='group_urlname') %>% 
   mutate(datatype=str_dt) %>% 
   bind_cols(select(groups,c(urlname))) %>% rename(strval='urlname') %>% 
   mutate(numval=NA) %>% 
@@ -589,7 +575,7 @@ nodes.groups.urlname
 nodes.groups.who <- 
   groups %>% 
   select(VID) %>% 
-  mutate(key='group.who') %>% 
+  mutate(key='group_who') %>% 
   mutate(datatype=str_dt) %>% 
   bind_cols(select(groups,c(who))) %>% rename(strval='who') %>% 
   mutate(numval=NA) %>% 
@@ -676,6 +662,8 @@ edges.groups <-
 edges.groups <- unique(edges.groups)
   
 View(edges.groups)
+
+Sys.sleep(10)
 ```
   
 #### 4. MEMBERS
@@ -738,11 +726,11 @@ members <-
     col_names = names(meetup_organizers_subset),
     skip=1)
 
-## Replace column names
-names(members) <- rename_fields(members)
-
 ## Extract member id and name only and remove duplicates
 organizers <- unique(members[2:3])
+
+## Check data
+str(organizers)
 
 ## Add column with sequence number to be used as VID
 seq_offset <- nrow(organizers)
@@ -750,8 +738,6 @@ seq_start <- seq_last
 seq_end <- seq_start + seq_offset - 1
 organizers$VID <- c(seq.int(from=seq_start,to=seq_end,by=1))
 seq_last <- seq_end + 1
-
-str(organizers)
 
 ## Reshape the data (leaving out original Meetup IDs), pushing columns into rows for the various types of information to store about each node and edge.
 
@@ -769,7 +755,7 @@ nodes.members.type
 nodes.members.name <- 
   organizers %>% 
   select(VID) %>% 
-  mutate(key='member.name') %>% 
+  mutate(key='member_name') %>% 
   mutate(datatype=str_dt) %>% 
   bind_cols(select(organizers,c(name))) %>% rename(strval='name') %>% 
   mutate(numval=NA) %>% 
@@ -796,7 +782,7 @@ View(nodes.members)
 
 ## Join different data frames
 members_rel_organizers <- merge(x = members, y = organizers, by.x = "id", by.y = "id")
-organizers_rel_groups <- merge(x = members_rel_organizers, y = groups, by.x = "group.id", by.y = "id")
+organizers_rel_groups <- merge(x = members_rel_organizers, y = groups, by.x = "group_id", by.y = "id")
 organizers_rel_groups <- organizers_rel_groups[,c("VID.x","VID.y")]
 
 seq_offset <- nrow(organizers_rel_groups)
@@ -826,6 +812,8 @@ edges.members <-
 edges.members <- unique(edges.members)
   
 View(edges.members)
+
+Sys.sleep(10)
 ```
   
 #### 5. EVENTS
@@ -863,11 +851,11 @@ for (k in 1:nrow(api_keys)) {
 	    url2 <- URLencode(paste0(url_with_group_urlname, "&offset=", i))
 	    meetup_events <- fromJSON(url2, flatten=TRUE)
 	    message("Retrieving page ", i)
-		Sys.sleep(2)
+	    Sys.sleep(3)
 	    pages[[p]] <- meetup_events$results
-		p=p+1
+	    p=p+1
 	  }
-	}
+      }
   } 
 } 
 
@@ -897,21 +885,18 @@ events <-
     col_names = names(meetup_events),
     skip=1)
 
-## Replace column names
-names(events) <- rename_fields(events)
-
 ## Convert creation date from EpochTimeInMillies to Date. Store as Java SimpleDateFormat (Ex. 2017-03-27T00:00:00.000+01:00)
 events$time <- paste0(anydate((events$time)/1000),'T00:00:00.000+01:00')
+
+## Check data
+str(events)
 
 ## Add column with sequence number to be used as VID (node identifier)
 seq_offset <- nrow(events)
 seq_start <- seq_last
 seq_end <- seq_start + seq_offset - 1
-
 events$VID <- c(seq.int(from=seq_start,to=seq_end,by=1))
 seq_last <- seq_end + 1
-
-str(events)
 
 ## Reshape the data (leaving out original Meetup IDs), pushing columns into rows for the various types of information to store about each node and edge.
 
@@ -930,7 +915,7 @@ nodes.events.type
 nodes.events.visibility <- 
   events %>% 
   select(VID) %>% 
-  mutate(key='event.visibility') %>% 
+  mutate(key='event_visibility') %>% 
   mutate(datatype=str_dt) %>% 
   bind_cols(select(events,c(visibility))) %>% rename(strval='visibility') %>% 
   mutate(numval=NA) %>% 
@@ -942,10 +927,10 @@ nodes.events.visibility
 nodes.events.waitlist.count <- 
   events %>% 
   select(VID) %>% 
-  mutate(key='event.waitlist.count') %>% 
+  mutate(key='event_waitlist_count') %>% 
   mutate(datatype=int_dt) %>% 
   mutate(strval=NA) %>% 
-  bind_cols(select(events,c(waitlist.count))) %>% rename(numval='waitlist.count') %>% 
+  bind_cols(select(events,c(waitlist_count))) %>% rename(numval='waitlist_count') %>% 
   mutate(datval=NA)
 ## Remove empty values
 nodes.events.waitlist.count <- nodes.events.waitlist.count[!is.na(nodes.events.waitlist.count$numval),]
@@ -955,10 +940,10 @@ nodes.events.waitlist.count
 nodes.events.maybe.rsvp.count <- 
   events %>% 
   select(VID) %>% 
-  mutate(key='event.maybe.rsvp.count') %>% 
+  mutate(key='event_maybe_rsvp_count') %>% 
   mutate(datatype=int_dt) %>% 
   mutate(strval=NA) %>% 
-  bind_cols(select(events,c(maybe.rsvp.count))) %>% rename(numval='maybe.rsvp.count') %>% 
+  bind_cols(select(events,c(maybe_rsvp_count))) %>% rename(numval='maybe_rsvp_count') %>% 
   mutate(datval=NA)
 ## Remove empty values
 nodes.events.maybe.rsvp.count <- nodes.events.maybe.rsvp.count[!is.na(nodes.events.maybe.rsvp.count$numval),]
@@ -968,10 +953,10 @@ nodes.events.maybe.rsvp.count
 nodes.events.yes.rsvp.count <- 
   events %>% 
   select(VID) %>% 
-  mutate(key='event.yes.rsvp.count') %>% 
+  mutate(key='event_yes_rsvp_count') %>% 
   mutate(datatype=int_dt) %>% 
   mutate(strval=NA) %>% 
-  bind_cols(select(events,c(yes.rsvp.count))) %>% rename(numval='yes.rsvp.count') %>% 
+  bind_cols(select(events,c(yes_rsvp_count))) %>% rename(numval='yes_rsvp_count') %>% 
   mutate(datval=NA)
 ## Remove empty values
 nodes.events.yes.rsvp.count <- nodes.events.yes.rsvp.count[!is.na(nodes.events.yes.rsvp.count$numval),]
@@ -981,10 +966,10 @@ nodes.events.yes.rsvp.count
 nodes.events.rsvp.limit <- 
   events %>% 
   select(VID) %>% 
-  mutate(key='event.rsvp.limit') %>% 
+  mutate(key='event_rsvp_limit') %>% 
   mutate(datatype=int_dt) %>% 
   mutate(strval=NA) %>% 
-  bind_cols(select(events,c(rsvp.limit))) %>% rename(numval='rsvp.limit') %>% 
+  bind_cols(select(events,c(rsvp_limit))) %>% rename(numval='rsvp_limit') %>% 
   mutate(datval=NA)
 ## Remove empty values
 nodes.events.rsvp.limit <- nodes.events.rsvp.limit[!is.na(nodes.events.rsvp.limit$numval),]
@@ -993,7 +978,7 @@ nodes.events.rsvp.limit
 
 nodes.events.time <- 
   events %>% select(VID) %>% 
-  mutate(key='event.date') %>% 
+  mutate(key='event_date') %>% 
   mutate(datatype=date_dt) %>% 
   mutate(strval=NA) %>% 
   mutate(numval=NA) %>% 
@@ -1005,7 +990,7 @@ nodes.events.time
 nodes.events.rating.count <- 
   events %>% 
   select(VID) %>% 
-  mutate(key='event.rating.count') %>% 
+  mutate(key='event_rating_count') %>% 
   mutate(datatype=int_dt) %>% 
   mutate(strval=NA) %>% 
   bind_cols(select(events,c(rating.count))) %>% rename(numval='rating.count') %>% 
@@ -1018,7 +1003,7 @@ nodes.events.rating.count
 nodes.events.rating.average <- 
   events %>% 
   select(VID) %>% 
-  mutate(key='event.rating.average') %>% 
+  mutate(key='event_rating_average') %>% 
   mutate(datatype=dbl_dt) %>% 
   mutate(strval=NA) %>% 
   bind_cols(select(events,c(rating.average))) %>% rename(numval='rating.average') %>% 
@@ -1031,7 +1016,7 @@ nodes.events.rating.average
 nodes.events.status <- 
   events %>% 
   select(VID) %>% 
-  mutate(key='event.status') %>% 
+  mutate(key='event_status') %>% 
   mutate(datatype=str_dt) %>% 
   bind_cols(select(events,c(status))) %>% rename(strval='status') %>% 
   mutate(numval=NA) %>% 
@@ -1093,6 +1078,8 @@ edges.events <-
 edges.events <- unique(edges.events)
   
 View(edges.events)
+
+Sys.sleep(10)
 ```
   
 #### 6. TOPICS
@@ -1154,8 +1141,8 @@ topics <-
     col_names = names(topics),
     skip=1)
 
-## Replace column names
-names(topics) <- rename_fields(topics)
+## Check data
+str(topics)
 
 ## Add column with sequence number to be used as VID
 seq_offset <- nrow(topics)
@@ -1163,9 +1150,6 @@ seq_start <- seq_last
 seq_end <- seq_start + seq_offset - 1
 topics$VID <- c(seq.int(from=seq_start,to=seq_end,by=1))
 seq_last <- seq_end + 1
-
-## Check data
-str(topics)
 
 ## Reshape the data (leaving out original Meetup IDs), pushing columns into rows for the various types of information to store about each node and edge.
 
@@ -1179,12 +1163,12 @@ nodes.topic.type <-
   mutate(strval = 'Topic') %>% 
   mutate(numval=NA) %>% 
   mutate(datval=NA)
-nodes.topics.type
+nodes.topic.type
 
 nodes.topic.name <- 
   topics %>% 
   select(VID) %>% 
-  mutate(key='topic.name') %>% 
+  mutate(key='topic_name') %>% 
   mutate(datatype=str_dt) %>% 
   bind_cols(select(topics,c(name))) %>% rename(strval='name') %>% 
   mutate(numval=NA) %>% 
@@ -1196,7 +1180,7 @@ nodes.topic.name
 nodes.topic.urlkey <- 
   topics %>% 
   select(VID) %>% 
-  mutate(key='topic.urlkey') %>% 
+  mutate(key='topic_urlkey') %>% 
   mutate(datatype=str_dt) %>% 
   bind_cols(select(topics,c(urlkey))) %>% rename(strval='urlkey') %>% 
   mutate(numval=NA) %>% 
@@ -1223,7 +1207,7 @@ View(nodes.topics)
 ##   Edge: Topic - is_assigned_to - Group
 
 ## Join different data frames
-topics_rel_topicgroups <- merge(x = topics, y = meetup_topics_unnested, by.x = "topic.id", by.y = "topic_id")
+topics_rel_topicgroups <- merge(x = topics, y = meetup_topics_unnested, by.x = "topic_id", by.y = "topic_id")
 topics_rel_groups <- merge(x = topics_rel_topicgroups, y = groups, by.x = "group_id", by.y = "id")
 topics_rel_groups <- topics_rel_groups[,c("VID.x","VID.y")]
 
@@ -1255,6 +1239,8 @@ edges.topics <-
 edges.topics <- unique(edges.topics)
   
 View(edges.topics)
+
+Sys.sleep(10)
 ```
 
 #### Bind all nodes and edges as Oracle Flat Files
