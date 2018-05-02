@@ -62,8 +62,9 @@ api_keys <-
     c(
       "key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","country=DE","city=Berlin",
       "key=yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy","country=DE","city=München",
+      "key=wwwwwwwwwwwwwwwwwwwwwwwwwwwww","country=DE","city=Hamburg",
       "key=zzzzzzzzzzzzzzzzzzzzzzzzzzzz","country=DK","city=Copenhagen"),
-    nrow=3,
+    nrow=4,
     ncol=3,
     byrow = TRUE)
 ```
