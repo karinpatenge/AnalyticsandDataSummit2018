@@ -89,12 +89,13 @@ seq_last=1
 seq_end=0
 seq_offset=0
 ```
-  
-### Retrieve and transform data from Meetup.com
-Target structures:  
+
+### Target Data Structures  
 - Nodes: "vertex_ID","key_name","value_type","strValue","numValue","datValue"     
 - Edges: "edge_ID","source_ID","dest_ID","e_label","key_name","value_type","strValue","numValue","datValue"    
-  
+
+### Retrieve and transform source data from Meetup.com
+
 #### 1. CITIES
 Sample request: https://api.meetup.com/2/cities?key=506c1916524f6d3a6c782432645f5eb&country=DE&only=id,country,city,lat,lon,ranking,member_count
 ```{r echo=TRUE}
