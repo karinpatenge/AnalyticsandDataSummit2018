@@ -59,7 +59,6 @@ Please copy your key(s) as well as the country code and city name into the matri
 ## Meetup REST API keys for 4 user profiles covering following cities of interest: ##   Berlin/DE, Munich/DE, Hamburg/DE and Copenhagen/DK
 api_keys <- 
   matrix(
-  matrix(
     c(
       "key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","country=DE","city=Berlin",
       "key=yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy","country=DE","city=München",
