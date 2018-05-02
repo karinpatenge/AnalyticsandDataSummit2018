@@ -28,6 +28,7 @@ server.add("bigdatalite.localdomain:5000");
 // Create a graph config that contains the graph name "meetup" 
 // KV store name is "kvstore"
 
+// Make sure to add all vertex properties that are later used in PGQL queries
 cfg = GraphConfigBuilder.forPropertyGraphNosql() \
 .setName("meetup") \
 .setStoreName("kvstore") \
@@ -35,14 +36,16 @@ cfg = GraphConfigBuilder.forPropertyGraphNosql() \
 .addVertexProperty("type", PropertyType.STRING, "NA") \
 .addVertexProperty("city_name", PropertyType.STRING, "NA") \
 .addVertexProperty("city_country", PropertyType.STRING, "NA") \
-.addVertexProperty("group_country", PropertyType.STRING, "NA") \
-.addVertexProperty("event_yes_rsvp_count", PropertyType.INTEGER, 0) \
 .addVertexProperty("city_member_count", PropertyType.INTEGER, 0) \
+.addVertexProperty("group_country", PropertyType.STRING, "NA") \
 .addVertexProperty("group_members", PropertyType.INTEGER, 0) \
+.addVertexProperty("group_name", PropertyType.STRING, "NA") \
+.addVertexProperty("member_name", PropertyType.STRING, "NA") \
+.addVertexProperty("topic_name", PropertyType.STRING, "NA") \
+.addVertexProperty("event_yes_rsvp_count", PropertyType.INTEGER, 0) \
 .hasEdgeLabel(true) \
 .setLoadEdgeLabel(true) \
 .setMaxNumConnections(2).build();
-// Remark: Make sure to add all properties that are later needed in PGQL queries
 
 opg = OraclePropertyGraph.getInstance(cfg);
 opg.setClearTableDOP(2);
@@ -66,15 +69,16 @@ opg.getMaxEdgeID();
 OraclePropertyGraphUtils.exportGraphSON(opg, "/home/oracle/Documents/Meetup/data/meetup.graphson", System.out)
 OraclePropertyGraphUtils.exportGraphML(opg, "/home/oracle/Documents/Meetup/data/meetup.graphml", System.out)
 
-
 // Get vertices and edges
 opg.getVertices();
 opg.getEdges();
 opg.getVertex(500l);
 opg.getEdge(35242l);
 opg.getVertices("type","City");
-opg.getVertices("type","Category");
 opg.getVertices("type","Group");
+opg.getVertices("type","Topic");
+opg.getVertices("type","Event");
+opg.getVertices("type","Member");
 
 // Get table names
 opg.getVertexTabName();
@@ -88,13 +92,30 @@ analyst=session.createAnalyst();
 // Read the graph from Oracle NoSQL DB into memory
 pgxGraph = session.readGraphWithProperties(opg.getConfig());
 
+// Working with In-Memory Analyst
+// Execute Page Rank
+rank=analyst.pagerank(pgxGraph, 0.0001, 0.85, 100);
+// Get top 10 vertices
+rank.getTopKValues(10);
+
+// BetweenNess Centrality
+bc=analyst.vertexBetweennessCentrality(pgxGraph)
+// Get top 10 vertices
+bc.getTopKValues(10);
+
+
 // Some PGQL queries
 pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x) -[e1:is_organizer_of]-> (y) -[e2:is_located_in]-> (z)")
 pgxResultSet.print(5);
 pgxResultSet.getNumResults();
 
-pgxResultSet = pgxGraph.queryPgql("SELECT x.type, y.type, y.group_members WHERE (x) -[e1:is_organizer_of]-> (y WITH group_members > 1000) -[e2:is_located_in]-> (z)");
-pgxResultSet.print(10);
+pgxResultSet = pgxGraph.queryPgql("SELECT x.type, y.type, y.group_name, y.group_members WHERE (x) -[e1:is_organizer_of]-> (y WITH group_members > 1000) -[e2:is_located_in]-> (z)");
+pgxResultSet.print(5);
+
+pgxResultSet = pgxGraph.queryPgql("SELECT x.member_name, y.group_name, y.group_members WHERE (x) -[e1:is_organizer_of]-> (y WITH group_members > 1000) -[e2:is_located_in]-> (z)");
+pgxResultSet.print(5);
+pgxResultSet = pgxGraph.queryPgql("SELECT x.member_name, y.group_name, y.group_members WHERE (x) -[e1:is_organizer_of]-> (y WITH group_members > 1000) -[e2:is_located_in]-> (z) order by y.group_members desc");
+pgxResultSet.print(5);
 
 pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x WITH event_yes_rsvp_count > 250) -[e1:is_organized_by]-> (y) -[e2:is_located_in]-> (z)")
 pgxResultSet.print(10);
@@ -102,14 +123,12 @@ pgxResultSet.print(10);
 pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x WITH event_yes_rsvp_count > 250) -[e1:is_organized_by]-> (y) -[e2:is_located_in]-> (z WITH city_name = 'Berlin')")
 pgxResultSet.print(10);
 
-// Working with In-Memory Analyst
-// Execute Page Rank
-rank=analyst.pagerank(pgxGraph, 0.0001, 0.85, 100);
+pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x WITH type='Topic') -[e1]-> (y WITH type = 'Group' AND group_members >= 1000) -[e2]-> (z)")
+pgxResultSet.print(10);
 
-// Get 10 vertices with highest PR values 
-rank.getTopKValues(10);
-
-
-					 
-// Shut down instance
+				 
+// Shut down Property Graph instance
 opg.shutdown();
+
+// Quit Groovy shell
+:q
