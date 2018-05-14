@@ -4,7 +4,7 @@ author: "Karin Patenge, Oracle Deutschland B.V. & Co. KG"
 date: "3/14/2018"
 output: html_notebook
 ---
-## Last updated: Apr 05,2018
+## Last updated: May 14,2018
 
 ## Acknowledgment
 The R code below contains snippets from the following resources:  
