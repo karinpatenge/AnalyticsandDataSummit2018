@@ -994,7 +994,7 @@ nodes.events.rating.count <-
   mutate(key='event_rating_count') %>% 
   mutate(datatype=int_dt) %>% 
   mutate(strval=NA) %>% 
-  bind_cols(select(events,c(rating_count))) %>% rename(numval='rating_count') %>% 
+  bind_cols(select(events,c(rating.count))) %>% rename(numval='rating.count') %>% 
   mutate(datval=NA)
 ## Remove empty values
 nodes.events.rating.count <- nodes.events.rating.count[!is.na(nodes.events.rating.count$numval),]
@@ -1007,7 +1007,7 @@ nodes.events.rating.average <-
   mutate(key='event_rating_average') %>% 
   mutate(datatype=dbl_dt) %>% 
   mutate(strval=NA) %>% 
-  bind_cols(select(events,c(rating_average))) %>% rename(numval='rating_average') %>% 
+  bind_cols(select(events,c(rating.average))) %>% rename(numval='rating.average') %>% 
   mutate(datval=NA)
 ## Remove empty values
 nodes.events.rating.average <- nodes.events.rating.average[!is.na(nodes.events.rating.average$numval),]
