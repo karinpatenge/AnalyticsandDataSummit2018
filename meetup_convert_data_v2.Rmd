@@ -111,7 +111,7 @@ for (k in 1:nrow(api_keys)) {
   url <- URLencode(paste0(baseurl,api_keys[k,1],"&",api_keys[k,2],query_params))
   
   total_count <- fromJSON(url)$meta$total_count
-  offset <- round(total_count/page_threshold)
+  offset <- floor(total_count/page_threshold)
   
   for(i in 0:offset) {
     url2 <- URLencode(paste0(url, "&offset=", i))
@@ -272,8 +272,6 @@ View(nodes.cities)
 ##   Create a dataframe containing all edges
 
 ## No (outgoing) edges for cities
-
-Sys.sleep(10)
 ```
   
 #### 2. CATEGORIES
@@ -289,7 +287,7 @@ for (key in api_keys[1,1]) {
   url <- URLencode(paste0(baseurl,api_keys[k,1],"&",api_keys[k,2]))
   
   total_count <- fromJSON(url)$meta$total_count
-  offset <- round(total_count/page_threshold)
+  offset <- floor(total_count/page_threshold)
   
   for(i in 0:offset) {
     url2 <- URLencode(paste0(url, "&offset=", i))
@@ -391,8 +389,6 @@ View(nodes.categories)
 ##   Create a dataframe containing all edges
 
 ## No (outgoing) edges for categories
-
-Sys.sleep(10)
 ```
   
 #### 3. GROUPS
@@ -409,7 +405,7 @@ for (k in 1:nrow(api_keys)) {
 
   total_count <- fromJSON(url)$meta$total_count
   total_count
-  offset <- round(total_count/page_threshold)
+  offset <- floor(total_count/page_threshold)
 
   for(i in 0:offset) {
     url2 <- URLencode(paste0(url, "&offset=", i))
@@ -663,8 +659,6 @@ edges.groups <-
 edges.groups <- unique(edges.groups)
   
 View(edges.groups)
-
-Sys.sleep(10)
 ```
   
 #### 4. MEMBERS
@@ -682,7 +676,7 @@ for (k in 1:nrow(api_keys)) {
 
   total_count <- fromJSON(url)$meta$total_count
   total_count
-  offset <- round(total_count/page_threshold)
+  offset <- floor(total_count/page_threshold)
 
   for(i in 0:offset) {
     url2 <- URLencode(paste0(url, "&offset=", i))
@@ -813,8 +807,6 @@ edges.members <-
 edges.members <- unique(edges.members)
   
 View(edges.members)
-
-Sys.sleep(10)
 ```
   
 #### 5. EVENTS
@@ -846,7 +838,7 @@ for (k in 1:nrow(api_keys)) {
     # print(total_count)
 
     if (total_count >= 1) {
-      offset <- round(total_count/page_threshold)
+      offset <- floor(total_count/page_threshold)
 
       for(i in 0:offset) {
 	    url2 <- URLencode(paste0(url_with_group_urlname, "&offset=", i))
@@ -1079,8 +1071,6 @@ edges.events <-
 edges.events <- unique(edges.events)
   
 View(edges.events)
-
-Sys.sleep(10)
 ```
   
 #### 6. TOPICS
@@ -1097,7 +1087,7 @@ for (k in 1:nrow(api_keys)) {
 
   total_count <- fromJSON(url)$meta$total_count
   total_count
-  offset <- round(total_count/page_threshold)
+  offset <- floor(total_count/page_threshold)
 
   for(i in 0:offset) {
     url2 <- URLencode(paste0(url, "&offset=", i))
@@ -1240,8 +1230,6 @@ edges.topics <-
 edges.topics <- unique(edges.topics)
   
 View(edges.topics)
-
-Sys.sleep(10)
 ```
 
 #### Bind all nodes and edges as Oracle Flat Files
