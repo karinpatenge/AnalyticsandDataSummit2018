@@ -1,0 +1,58 @@
+// These queries can be used directly with Cytoscape when loading data using "Start from PGQL"
+// Please note that,
+//   some of the queries are related to the data set including Meetup groups and related information 
+//   for the cities of Berlin, Hamburg, Munich and Copenhagen
+// Karin Patenge, 2018-05-23
+
+SELECT *
+WHERE (x) -[e:is_organizer_of]-> (y)
+
+SELECT *
+WHERE (x) -[e:is_assigned_to]-> (y)
+
+SELECT *
+WHERE (x) -[e1:is_organizer_of]-> (y) -[e2:is_located_in]-> (z)
+
+SELECT *
+WHERE (x WITH type = 'Event' and event_yes_rsvp_count > 50) -[e1]-> (y WITH type = 'Group') -[e2:is_located_in]-> (z WITH city_name = 'Copenhagen')
+
+SELECT *
+WHERE (x WITH type = 'Event' and event_yes_rsvp_count > 50) -[e1]-> (y WITH type = 'Group') 
+
+// 06a_Events_with_more_than_250_registrations.cys
+SELECT *
+WHERE (x WITH type='Event' and event_yes_rsvp_count >= 250) -[e1]- (y WITH type='Group') -[e2]- (z WITH type='City')
+
+SELECT *
+WHERE (x) -[e:is_assigned_to]-> (y WITH group_members >= 1000)
+
+SELECT * WHERE (x WITH type='Group' and group_name = 'Berlin Machine Learning Group') <-[e1:is_assigned_to]- (y WITH type='Topic') -[e2]-> (z) -[e3:is_located_in]-> (w)
+SELECT * WHERE (x WITH type='Group' and group_name = 'Berlin Machine Learning Group') <-[e1:is_assigned_to]- (y WITH type='Topic') -[e2]-> (z WITH group_members >= 1000) -[e3:is_located_in]-> (w)
+SELECT * WHERE (x WITH type='Group' and group_name = 'Women Who Code Berlin') <-[e1:is_assigned_to]- (y WITH type='Topic') -[e2]-> (z WITH group_members >= 2000) -[e3:is_located_in]-> (w)
+
+
+SELECT *
+WHERE (x WITH type='Topic') -[e1]-> (y WITH type='Group') -[e2]-> (z WITH type = 'City' and city_name = 'Berlin')
+
+SELECT *
+WHERE (x WITH type='Topic' and (topic_name = 'Microservices' or topic_name = 'Kubernetes' or topic_name = 'Serverless')) -[e1]-> (y WITH type='Group') -[e2]-> (z WITH type = 'City' and city_name = 'Berlin')
+
+// DE_Java_Groups.csv
+SELECT *
+WHERE (x WITH type='Topic' and topic_name = 'Java') -[e1]-> (y WITH type='Group') -[e2]-> (z WITH type = 'City' and (city_name = 'Berlin' or city_name = 'Hamburg' or city_name = 'München'))
+
+// BLN_BigData_Group_Events_and_Topics.cys
+SELECT *
+WHERE (x WITH type='Event') -[e1]-> (y WITH type='Group' and group_name = 'Big Data, Berlin') <-[e2:is_assigned_to]- (z WITH type='Topic')
+
+// BLN_BigData_Group_Events_and_Topics_City.cys
+SELECT *
+WHERE (x) -[e1:is_organized_by]-> (y WITH type='Group' and group_name = 'Big Data, Berlin') <-[e2:is_assigned_to]- (z WITH type='Topic'), (y) -[e3:is_located_in]-> (w)
+
+// Groups in Berlin with topics IaaS, PaaS, and related assigned
+SELECT *
+WHERE (x WITH type='Topic' and (topic_urlkey = 'cloud-computing' or topic_urlkey = 'cloud-infrastructure' or topic_urlkey = 'cloud-services' or topic_urlkey = 'paas' or topic_urlkey = 'iaas-infrastructure-as-a-service' or topic_urlkey = 'iaas-infrastructure-as-a-service')) -[e1]-> (y WITH type='Group') -[e2]-> (z WITH type = 'City' and city_name = 'Berlin')
+
+// Use of Regular Expression operator rather than combining topic_urlkey via 'OR'
+SELECT * 
+WHERE (x) -[e1:is_assigned_to]-> (y WITH type='Group') -[e2:is_located_in]-> (z), x.topic_urlkey =~ 'as-a-service'
