@@ -1,7 +1,8 @@
-//////////////////////////////////////////////////////////////////////////////////
-// Loading data into Property Graph using Groovy and Oracle NoSQL DB as data layer
+////////////////////////////////////////////////////////////////////////////////////////
+// Loading data into Property Graph using Groovy Shell and Oracle NoSQL DB as data layer
 // Working environment: Big Data Lite VM 4.11
-//////////////////////////////////////////////////////////////////////////////////
+// Karin Patenge, 2018-05-23
+////////////////////////////////////////////////////////////////////////////////////////
 
 // Something done before
 sudo yum install tree
@@ -16,7 +17,6 @@ java -jar $KVHOME/lib/kvcli.jar -host localhost -port 5000 -store kvstore
 > show topology
 > verify configuration
 > quit
-
 
 // Start Groovy Shell connecting to Oracle NoSQL DB
 cd /opt/oracle/oracle-spatial-graph/property_graph/dal/groovy
@@ -38,11 +38,17 @@ cfg = GraphConfigBuilder.forPropertyGraphNosql() \
 .addVertexProperty("city_country", PropertyType.STRING, "NA") \
 .addVertexProperty("city_member_count", PropertyType.INTEGER, 0) \
 .addVertexProperty("group_country", PropertyType.STRING, "NA") \
+.addVertexProperty("group_visibility", PropertyType.STRING, "NA") \
 .addVertexProperty("group_members", PropertyType.INTEGER, 0) \
 .addVertexProperty("group_name", PropertyType.STRING, "NA") \
+.addVertexProperty("group_urlname", PropertyType.STRING, "NA") \
 .addVertexProperty("member_name", PropertyType.STRING, "NA") \
 .addVertexProperty("topic_name", PropertyType.STRING, "NA") \
+.addVertexProperty("topic_urlkey", PropertyType.STRING, "NA") \
 .addVertexProperty("event_yes_rsvp_count", PropertyType.INTEGER, 0) \
+.addVertexProperty("event_rating_count", PropertyType.INTEGER, 0) \
+.addVertexProperty("event_rating_average", PropertyType.INTEGER, 0) \
+.addVertexProperty("event_waitlist_count", PropertyType.INTEGER, 0) \
 .hasEdgeLabel(true) \
 .setLoadEdgeLabel(true) \
 .setMaxNumConnections(2).build();
@@ -74,6 +80,7 @@ opg.getVertices();
 opg.getEdges();
 opg.getVertex(500l);
 opg.getEdge(35242l);
+opg.getVertices("type","Category");
 opg.getVertices("type","City");
 opg.getVertices("type","Group");
 opg.getVertices("type","Topic");
@@ -83,6 +90,7 @@ opg.getVertices("type","Member");
 // Get table names
 opg.getVertexTabName();
 opg.getEdgeTabName();
+
 
 // PGX Server already started
 // Create in-memory session and analyst for analytics
@@ -95,11 +103,13 @@ pgxGraph = session.readGraphWithProperties(opg.getConfig());
 // Working with In-Memory Analyst
 // Execute Page Rank
 rank=analyst.pagerank(pgxGraph, 0.0001, 0.85, 100);
+
 // Get top 10 vertices
 rank.getTopKValues(10);
 
 // BetweenNess Centrality
 bc=analyst.vertexBetweennessCentrality(pgxGraph)
+
 // Get top 10 vertices
 bc.getTopKValues(10);
 
@@ -117,17 +127,34 @@ pgxResultSet.print(5);
 pgxResultSet = pgxGraph.queryPgql("SELECT x.member_name, y.group_name, y.group_members WHERE (x) -[e1:is_organizer_of]-> (y WITH group_members > 1000) -[e2:is_located_in]-> (z) order by y.group_members desc");
 pgxResultSet.print(5);
 
-pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x WITH event_yes_rsvp_count > 250) -[e1:is_organized_by]-> (y) -[e2:is_located_in]-> (z)")
+pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x WITH event_yes_rsvp_count > 250) -[e1:is_organized_by]-> (y) -[e2:is_located_in]-> (z)");
 pgxResultSet.print(10);
 
-pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x WITH event_yes_rsvp_count > 250) -[e1:is_organized_by]-> (y) -[e2:is_located_in]-> (z WITH city_name = 'Berlin')")
+pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x WITH event_yes_rsvp_count > 250) -[e1:is_organized_by]-> (y) -[e2:is_located_in]-> (z WITH city_name = 'Berlin')");
 pgxResultSet.print(10);
 
-pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x WITH type='Topic') -[e1]-> (y WITH type = 'Group' AND group_members >= 1000) -[e2]-> (z)")
+pgxResultSet = pgxGraph.queryPgql("SELECT y.group_name, avg(x.event_yes_rsvp_count) as avg_rsvp WHERE (x) -[e1:is_organized_by]-> (y) -[e2:is_located_in]-> (z WITH city_name = 'Berlin') group by y.group_name order by avg_rsvp desc");
 pgxResultSet.print(10);
 
+pgxResultSet = pgxGraph.queryPgql("SELECT y.group_name, avg(x.event_yes_rsvp_count) as avg_rsvp, count(x) as no_of_events WHERE (x) -[e1:is_organized_by]-> (y) -[e2:is_located_in]-> (z WITH city_name = 'Berlin') group by y.group_name order by no_of_events desc");
+pgxResultSet.print(10);
+
+pgxResultSet = pgxGraph.queryPgql("SELECT y.group_name, avg(x.event_yes_rsvp_count) as avg_rsvp, count(x) as no_of_events WHERE (x) -[e1:is_organized_by]-> (y) -[e2:is_located_in]-> (z WITH city_name = 'Berlin') group by y.group_name order by avg_rsvp desc");
+pgxResultSet.print(10);
+
+pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x WITH type='Topic') -[e1]-> (y WITH type = 'Group' AND group_members >= 1000) -[e2]-> (z)");
+pgxResultSet.print(10);
+
+pgxResultSet = pgxGraph.queryPgql("SELECT z.city_name, y.group_name, x.topic_urlkey, y.group_members WHERE (x) -[e1:is_assigned_to]-> (y WITH type='Group') -[e2:is_located_in]-> (z), x.topic_name =~ 'Blockchain' order by z.city_name, y.group_name, x.topic_urlkey ")
+pgxResultSet.print(10);
 				 
-// Shut down Property Graph instance
+pgxResultSet = pgxGraph.queryPgql("SELECT z.city_name, y.group_name, x.topic_urlkey, y.group_members WHERE (x) -[e1:is_assigned_to]-> (y WITH type='Group') -[e2:is_located_in]-> (z), x.topic_urlkey =~ 'as-a-service' order by y.group_members desc")
+pgxResultSet.print(10);
+
+pgxResultSet = pgxGraph.queryPgql("SELECT * WHERE (x WITH type='Topic') -[e1:is_assigned_to]-> (y WITH type='Group' and group_name = 'Women Who Code Berlin')")
+pgxResultSet.print();
+
+// Shut down instance
 opg.shutdown();
 
 // Quit Groovy shell
